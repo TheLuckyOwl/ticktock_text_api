@@ -1,0 +1,86 @@
+TurkID: AQ2INPVVXR1G0
+UserID: 1476865193
+Turn: 1
+You: Hello, TickTock, and good day.
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: What's your favorite movie?
+TickTock: Too many to choose from
+Appropriateness: 3
+Strategy: ['anaphora', 'continue']
+
+Turn: 3
+You: What's your favorite movie genre?
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 2
+Strategy: ['seen']
+
+Turn: 4
+You: I have not seen it yet, I plan on seeing it in June.
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['anaphora', 'type']
+
+Turn: 5
+You: I love super hero movies.
+TickTock: I like pop music.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 6
+You: Who is your favorite pop artist?
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 1
+Strategy: ['anaphora', 'together']
+
+Turn: 7
+You: I'm sorry, but I'm going to see it with my fiance.
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 2
+Strategy: ['anaphora', 'details']
+
+Turn: 8
+You: Yes, I think Iron Man is my favorite character.
+TickTock: Are you talking about Iron, the Chemical Element
+Appropriateness: 1
+Strategy: ['name_entity']
+
+Turn: 9
+You: No, Iron Man, the superhero.
+TickTock: what is 'Iron'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 10
+You: You tell me, you're the one who brought up Iron Man.
+TickTock: Are you talking about Iron Man, the Fictional superhero
+Appropriateness: 3
+Strategy: ['name_entity']
+
+Turn: 11
+You: Yes, I am talking about him.
+TickTock: Who is your favorite super hero?
+Appropriateness: 3
+Strategy: ['anaphora', 'who']
+
+Turn: 12
+You: Iron Man is my favorite super hero.
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['suggest']
+
+Turn: 13
+You: Yes, I have seen the first Avenger movie.
+TickTock: what is 'Avenger'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 14
+You: Someone who demands justice.
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 2
+Strategy: ['favorite']
+

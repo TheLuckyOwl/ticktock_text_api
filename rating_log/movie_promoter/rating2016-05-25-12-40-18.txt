@@ -1,0 +1,86 @@
+TurkID: A2UO3QJZNC2VOE
+UserID: 1012263299
+Turn: 1
+You: how are you
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: sounds good
+TickTock: I think it is fabulous. Can we talk about something else?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 3
+You: sounds good
+TickTock: You already said that!
+Appropriateness: 3
+Strategy: ['not_repeat']
+
+Turn: 4
+You: i know ha
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['seen']
+
+Turn: 5
+You: yes and i loved it
+TickTock: Who is your favorite super hero?
+Appropriateness: 3
+Strategy: ['anaphora', 'who']
+
+Turn: 6
+You: batman
+TickTock: Will you be serious, and say something in a complete sentence?
+Appropriateness: 3
+Strategy: ['short_answer']
+
+Turn: 7
+You: I am serious
+TickTock: I did n't mean in a bad way. What do you think?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 8
+You: I am just tired
+TickTock: I did n't mean in a bad way. What do you think?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 9
+You: I am not sure
+TickTock: I did n't mean in a bad way. What do you think?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 10
+You: I am not sure
+TickTock: You already said that!
+Appropriateness: 3
+Strategy: ['not_repeat']
+
+Turn: 11
+You: so did you
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['suggest']
+
+Turn: 12
+You: Yes, many times before
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 3
+Strategy: ['together']
+
+Turn: 13
+You: I do not know you
+TickTock: Yes. What do you think?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 14
+You: You already said that
+TickTock: Oh, sorry to repeat myself.
+Appropriateness: 3
+Strategy: ['continue']
+

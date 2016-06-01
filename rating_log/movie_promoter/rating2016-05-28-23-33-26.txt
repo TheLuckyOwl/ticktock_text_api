@@ -1,0 +1,253 @@
+TurkID: 37368882
+UserID: 1365836357
+Gender:male
+Age:30-40
+HaveSeen: -1
+GoTogether: 1
+
+Turn: 1
+You: Hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: Do you like superhero movies?
+TickTock: I do n't go very often.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 3
+You: Why not?
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+
+Turn: 4
+You: I like movies
+TickTock: I like pop music.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 5
+You:  I like pop music
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+
+Turn: 6
+You: Let's talk about super heroes
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+
+Turn: 7
+You: What movies would you like to talk about?
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 8
+You: ok, let's talk about movies
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 9
+You: I liked Batman
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+
+Turn: 10
+You:  Tell me about movies
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 11
+You: I like super hero movies
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 12
+You: Tell me about movies
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+
+Turn: 13
+You: Tell me about movies
+TickTock: You already said that!
+Appropriateness: 3
+Strategy: ['not_repeat']
+
+Turn: 14
+You: So did you
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 1
+Strategy: ['type']
+
+Turn: 15
+You: Super her movies
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+
+Turn: 16
+You: Super hero movies
+TickTock: No, no eyes, sorry
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 17
+You: Same to you
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 1
+Strategy: ['type']
+
+Turn: 18
+You: Super hero movies
+TickTock: No, no eyes, sorry
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 19
+You: I'm sorry too
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 20
+You: Tell me about movies
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 2
+Strategy: ['type']
+
+Turn: 21
+You: Disney movies
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+
+Turn: 22
+You: Tell me about movies
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 1
+Strategy: ['type']
+
+Turn: 23
+You: I like Disney movies
+TickTock: I like pop music.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 24
+You: I also like pop music
+TickTock: I like pop music.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 25
+You: I will fight you
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 1
+Strategy: ['suggest']
+
+Turn: 26
+You: I have
+TickTock: Apparently.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 27
+You: Who is your favorite avenger?
+TickTock: what is 'avenger'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 28
+You: What is ticktock?
+TickTock: Who is your favorite super hero?
+Appropriateness: 1
+Strategy: ['who']
+
+Turn: 29
+You: Batman
+TickTock: I love his black eyes.
+Appropriateness: 2
+Strategy: ['superhero']
+
+Turn: 30
+You: Good for you
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 2
+Strategy: ['recommend']
+
+Turn: 31
+You: I suppose so
+TickTock: That's good, because I'm right.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 32
+You: Yes, ticktock, you are right in all things
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 2
+Strategy: ['together']
+
+Turn: 33
+You: That sounds great
+TickTock: What do you like to do?
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 34
+You: Engage in battle of wits with ticktock
+TickTock: what is 'wits'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 35
+You: Well played, ticktock
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 2
+Strategy: ['seen']
+
+Turn: 36
+You: I have not
+TickTock: You have.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 37
+You: Damn your eyes
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['details']
+
+Turn: 38
+You: Your tears are lost in the rain
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+
+Turn: 39
+You: Let us do that
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 2
+Strategy: ['anaphora', 'type']
+
+Turn: 40
+You: Iron man
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+
+Turn: 41
+You: Fare thee well, sweet ticktock
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+

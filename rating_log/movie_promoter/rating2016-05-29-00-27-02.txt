@@ -1,0 +1,67 @@
+TurkID: 15448937
+UserID: 1586051703
+Gender:male
+Age:30-40
+HaveSeen: 0
+GoTogether: 0
+
+Turn: 1
+You: hello
+TickTock: let us do something fun together
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 2
+You: ok
+TickTock: Thank you.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 3
+You: youre welcome
+TickTock: what is 'youre'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 4
+You: you're
+TickTock: Yes.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 5
+You: ok
+TickTock: Thank you.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 6
+You: you are welcome...better?
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 7
+You: yes you said that
+TickTock: The answer was no for me.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 8
+You: ok
+TickTock: Thank you.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 9
+You: ok
+TickTock: You already said that!
+Appropriateness: 3
+Strategy: ['not_repeat']
+
+Turn: 10
+You: i am done
+TickTock: I did n't mean in a bad way.
+Appropriateness: 3
+Strategy: ['continue']
+

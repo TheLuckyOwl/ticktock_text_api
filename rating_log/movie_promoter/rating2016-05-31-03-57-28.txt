@@ -1,0 +1,115 @@
+TurkID: 6348382
+UserID: 1799621302
+Gender:female
+Age:20-30
+HaveSeen: -1
+GoTogether: -1
+
+Turn: 1
+You: Hello tick tock
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: what are your favorite movies?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['anaphora', 'type']
+
+Turn: 3
+You: i like superhero movies
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 4
+You: mine is batman
+TickTock: I love his black eyes.
+Appropriateness: 2
+Strategy: ['superhero']
+
+Turn: 5
+You: do you like disney movies?
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 1
+Strategy: ['suggest']
+
+Turn: 6
+You: yes it was very good
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['anaphora', 'details']
+
+Turn: 7
+You: really that's suprising
+TickTock: what is 'suprising'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 8
+You: sorry i meant surprising
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 1
+Strategy: ['seen']
+
+Turn: 9
+You: not yet have you?
+TickTock: My friend just saw Captain America: Civil War. He told me it is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['recommend']
+
+Turn: 10
+You: that is good
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 3
+Strategy: ['together']
+
+Turn: 11
+You: no thank you
+TickTock: Yes.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 12
+You: goodbye tick tock
+TickTock: See ya later!
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 13
+You: i like superhero movies
+TickTock: That's interesting. Can you share some interesting stuff with me?
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 14
+You: what interesting stuff
+TickTock: Could you tell me more about that?
+Appropriateness: 1
+Strategy: ['more']
+
+Turn: 15
+You: about what ticktock
+TickTock: Well, you know, I'm not sure.  Let me tell you something. What do James Cameron and M. Night Shamylan have in common? Icy dead people.
+Appropriateness: 2
+Strategy: ['joke']
+
+Turn: 16
+You: that is good
+TickTock:  Let us make a plan to see the latest star war movies together.
+Appropriateness: 2
+Strategy: ['init']
+
+Turn: 17
+You: there's a new one?
+TickTock: ok.  Let me tell you something. I heard Steven Spielberg is directing a movie about a fat alien. It's called Eat-T, The Extra Cholesterol.
+Appropriateness: 2
+Strategy: ['joke']
+
+Turn: 18
+You: that is funny
+TickTock: That's interesting. Can we talk about something else?
+Appropriateness: 2
+Strategy: ['end']
+

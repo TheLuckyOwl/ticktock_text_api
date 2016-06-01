@@ -1,0 +1,85 @@
+TurkID: 36117325
+UserID: 1248760969
+Gender:female
+Age:40-50
+HaveSeen: 0
+GoTogether: 0
+
+Turn: 1
+You: Hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: oh yes, lets talk about it
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['anaphora', 'type']
+
+Turn: 3
+You: Disney movies
+TickTock: That's interesting. Can you tell me something about board games
+Appropriateness: 3
+Strategy: ['switch']
+
+Turn: 4
+You: board games?
+TickTock: what board games do you usually play?
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 5
+You: monopoly
+TickTock: I also like to play solitare.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 6
+You: i don like it
+TickTock: Uhh, I can't answer this. Can you share some interesting stuff with me?
+Appropriateness: 2
+Strategy: ['anaphora', 'end']
+
+Turn: 7
+You: im venezuelan
+TickTock: what is 'venezuelan'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 8
+You: born in Venezuela
+TickTock: Are you talking about Venezuela, the Country in South America
+Appropriateness: 3
+Strategy: ['name_entity']
+
+Turn: 9
+You: yes, thats right
+TickTock: Uhh, I can't answer this. Great. Let's talk other stuff then.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 10
+You: i got to go
+TickTock: Do you want to share more about that with me?
+Appropriateness: 3
+Strategy: ['more']
+
+Turn: 11
+You: it is late and i have to sleep
+TickTock: I don't know. But anyway, I'd like to chat with you.
+Appropriateness: 3
+Strategy: ['anaphora', 'end']
+
+Turn: 12
+You: id like too
+TickTock:  Do you like to play some board games together next time with me?
+Appropriateness: 3
+Strategy: ['init']
+
+Turn: 13
+You: but i want to sleep. i have to wake up early in the morning
+TickTock: ok.  I almost got caught trying to steal a board game yesterday. It was a Risk I was willing to take.
+Appropriateness: 3
+Strategy: ['joke']
+

@@ -1,0 +1,115 @@
+TurkID: A1A3TGZ7DKJWRW
+UserID: 1693770729
+Gender:male
+Age:20-30
+HaveSeen: -1
+GoTogether: 1
+
+Turn: 1
+You: Hello, how are you?
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: Sur, we can talk about that
+TickTock: what is 'Sur'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 3
+You: I meant sure, sorry
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 4
+You: I like superheroes
+TickTock: Do you watch them with your kids?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 5
+You: I don't have kids
+TickTock: let us make a plan to see the latest star war movies together
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 6
+You: Of course, when should we go
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['details']
+
+Turn: 7
+You: It was a really good movie
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['anaphora', 'recommend']
+
+Turn: 8
+You: I haven't seen that yet
+TickTock: Oh, my God.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 9
+You: What is up?
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 3
+Strategy: ['together']
+
+Turn: 10
+You: Sure, let us go and see that movie
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['anaphora', 'seen']
+
+Turn: 11
+You: No, not yet
+TickTock: Who is your favorite super hero?
+Appropriateness: 3
+Strategy: ['who']
+
+Turn: 12
+You: My favorite is Ironman
+TickTock: I love Iron Man's blue eyes.
+Appropriateness: 3
+Strategy: ['superhero']
+
+Turn: 13
+You: Me too, they look great
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['anaphora', 'favorite']
+
+Turn: 14
+You: Good to know!
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['suggest']
+
+Turn: 15
+You: Yes, I have
+TickTock: ok, when do you time
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 16
+You: I am free to go to the movies at any time
+TickTock:  Let's find a time to see the latest super hero movie.
+Appropriateness: 3
+Strategy: ['init']
+
+Turn: 17
+You: Yes, of course
+TickTock: Well, you know, I'm not sure. Let me know something you're interested in.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 18
+You: Okay, see you soon
+TickTock: Well, you know, I'm not sure. Let me know something you're interested in.
+Appropriateness: 2
+Strategy: ['end']
+

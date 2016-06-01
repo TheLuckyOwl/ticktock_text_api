@@ -1,0 +1,74 @@
+TurkID: A323WW03VM8089
+UserID: 1653837587
+Turn: 1
+You: Hello, TickTock. How are you this morning?
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 2
+You: Sire, I like movies too. What's your favorite new movie?
+TickTock: what is 'Sire'?
+Appropriateness: 3
+Strategy: ['anaphora', 'oov']
+
+Turn: 3
+You: Oops, meant to say sure. Sorry, TickTock, it's still a bit early in the morning.
+TickTock: Are you talking about Sorry, the Song by Super Junior
+Appropriateness: 2
+Strategy: ['name_entity']
+
+Turn: 4
+You: No, I've never heard that song. Is it good?
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 2
+Strategy: ['anaphora', 'details']
+
+Turn: 5
+You: My son loves Iron Man, but I haven't seen any of those movies. 
+TickTock: Are you talking about Iron Man, the Fictional superhero
+Appropriateness: 3
+Strategy: ['name_entity']
+
+Turn: 6
+You: I am. We have a Lego Marvel game that has Iron Man in it.
+TickTock: Are you talking about Iron Man, the Fictional superhero
+Appropriateness: 3
+Strategy: ['anaphora', 'name_entity']
+
+Turn: 7
+You: Yes, Ticktock. What other movies do you like?
+TickTock: Are you talking about Ticktock, the Novel by Dean Koontz
+Appropriateness: 2
+Strategy: ['name_entity']
+
+Turn: 8
+You: No, I've never heard of that book either.
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['suggest']
+
+Turn: 9
+You: I usually watch documentary movies.
+TickTock: Who is your favorite super hero?
+Appropriateness: 2
+Strategy: ['who']
+
+Turn: 10
+You: I like Super Dad, he's awesome.
+TickTock: Are you talking about Super Dad, the Book by Shoo Rayner
+Appropriateness: 3
+Strategy: ['anaphora', 'name_entity']
+
+Turn: 11
+You: Nope. Well, I should go for today. Have a great day, TickTock.
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 2
+Strategy: ['recommend']
+
+Turn: 12
+You: Great! Okay, I'll talk with you again sometime soon.
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 2
+Strategy: ['together']
+

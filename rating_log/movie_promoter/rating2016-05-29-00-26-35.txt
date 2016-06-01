@@ -1,0 +1,157 @@
+TurkID:  A3F128VOB46KDM
+UserID: 1391383444
+Gender:female
+Age:above50
+HaveSeen: -1
+GoTogether: 1
+
+Turn: 1
+You: hello TickTock...how are you today
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: Ok...I am not much of a movie goer..so I probably wont be much help
+TickTock: what is 'goer..so'?
+Appropriateness: 2
+Strategy: ['oov']
+
+Turn: 3
+You: goer, so
+TickTock: what is 'goer'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 4
+You: goer, so
+TickTock: You already said that!
+Appropriateness: 3
+Strategy: ['not_repeat']
+
+Turn: 5
+You: goer, so
+TickTock: You already said that!
+Appropriateness: 3
+Strategy: ['not_repeat']
+
+Turn: 6
+You: goer, so
+TickTock: 
+Appropriateness: 3
+Strategy: 
+
+Turn: 7
+You: goer, so
+TickTock: You already said that!
+Appropriateness: 3
+Strategy: ['not_repeat']
+
+Turn: 8
+You: sorry  I clicked enter one time too many
+TickTock: what is 'clicked'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 9
+You: hitting the enter key on my keyboard
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 1
+Strategy: ['type']
+
+Turn: 10
+You: disney definately
+TickTock: what is 'definately'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 11
+You: certainly
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 1
+Strategy: ['together']
+
+Turn: 12
+You: nonot much of a superhhero fan
+TickTock: what is 'nonot'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 13
+You: no not
+TickTock: 
+Appropriateness: 2
+Strategy: 
+
+Turn: 14
+You: so what is your favorite movie
+TickTock: Who is your favorite super hero?
+Appropriateness: 1
+Strategy: ['who']
+
+Turn: 15
+You: I guess you could say superman
+TickTock: I love his blue eyes.
+Appropriateness: 2
+Strategy: ['superhero']
+
+Turn: 16
+You: really
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 1
+Strategy: ['seen']
+
+Turn: 17
+You: no
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['recommend']
+
+Turn: 18
+You: I will take your word for it
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 1
+Strategy: ['anaphora', 'details']
+
+Turn: 19
+You: did not see that one either
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 1
+Strategy: ['favorite']
+
+Turn: 20
+You: I bet he is
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 1
+Strategy: ['anaphora', 'suggest']
+
+Turn: 21
+You: no not any superhero
+TickTock: Could you tell me more about that?
+Appropriateness: 1
+Strategy: ['more']
+
+Turn: 22
+You: I have not seen it
+TickTock: So you do n't like me after all?!
+Appropriateness: 1
+Strategy: ['anaphora', 'continue']
+
+Turn: 23
+You: I did not say that
+TickTock: She did n't do too badly, but.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 24
+You: I like you just o not like superhero movies
+TickTock:  Let us make a plan to see the latest star war movies together.
+Appropriateness: 1
+Strategy: ['init']
+
+Turn: 25
+You: no can do
+TickTock:  Let's find a time to see the latest super hero movie.
+Appropriateness: 1
+Strategy: ['init']
+

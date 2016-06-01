@@ -1,0 +1,67 @@
+TurkID: A13WFFPE9L1QAB
+UserID: 870638854
+Gender:male
+Age:20-30
+HaveSeen: 0
+GoTogether: 0
+
+Turn: 1
+You: hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: what movie is your favorite out now?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 2
+Strategy: ['anaphora', 'type']
+
+Turn: 3
+You: yes i love disney movies, star wars. Your favorite disney movie?
+TickTock: Well, you know, I'm not sure. Can you tell me something about sports
+Appropriateness: 3
+Strategy: ['anaphora', 'switch']
+
+Turn: 4
+You: I like to watch baseball, what is your favorite sport?
+TickTock:  Do you want to see a game together some time?
+Appropriateness: 2
+Strategy: ['anaphora', 'init']
+
+Turn: 5
+You: i prefer not to.
+TickTock:  Let's find a time to see the latest super hero movie.
+Appropriateness: 2
+Strategy: ['init']
+
+Turn: 6
+You: which movie, in particular?
+TickTock:  Do you want to go to a concert together some time.
+Appropriateness: 2
+Strategy: ['init']
+
+Turn: 7
+You: what performer?
+TickTock:  Let's find a time to see the latest super hero movie.
+Appropriateness: 2
+Strategy: ['init']
+
+Turn: 8
+You: which movie do you prefer?
+TickTock:  Do you want to see a game together some time?
+Appropriateness: 2
+Strategy: ['init']
+
+Turn: 9
+You: no
+TickTock:  Do you want to go to a concert together some time.
+Appropriateness: 3
+Strategy: ['init']
+
+Turn: 10
+You: no
+TickTock: You already said that!
+Appropriateness: 3
+Strategy: ['not_repeat']
+

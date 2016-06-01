@@ -1,0 +1,122 @@
+TurkID: AHVBQLAKS76X2
+UserID: 945589796
+Turn: 1
+You: Hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: I'd rather not
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['seen']
+
+Turn: 3
+You: Nope
+TickTock: Why not?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 4
+You: I don't like comic movies
+TickTock: Who is your favorite super hero?
+Appropriateness: 2
+Strategy: ['who']
+
+Turn: 5
+You: Not applicable
+TickTock: what is 'applicable'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 6
+You: It means relevant in this case
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 2
+Strategy: ['type']
+
+Turn: 7
+You: Neither, but if I had to choose I would pick Disney
+TickTock: Are you talking about Disney, the Mass media company
+Appropriateness: 3
+Strategy: ['name_entity']
+
+Turn: 8
+You: Yes
+TickTock: Will you be serious, and say something in a complete sentence?
+Appropriateness: 3
+Strategy: ['short_answer']
+
+Turn: 9
+You: I am attempting to be serious, and this is a complete sentence
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 2
+Strategy: ['details']
+
+Turn: 10
+You: Robots can cry?
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 2
+Strategy: ['favorite']
+
+Turn: 11
+You: I don't have a favorite super hero
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 2
+Strategy: ['together']
+
+Turn: 12
+You: No thank you, but I appreciate the offer
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 2
+Strategy: ['suggest']
+
+Turn: 13
+You: No I have not seen the first Avenger movie
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['recommend']
+
+Turn: 14
+You: I'm glad you enjoyed that movie.
+TickTock: ok.  Let me tell you something, We never really grow up, we only learn how to act in public.
+Appropriateness: 3
+Strategy: ['joke']
+
+Turn: 15
+You: I agree with your assessment.
+TickTock: Well, you know, I'm not sure. Can you tell me something about politics
+Appropriateness: 3
+Strategy: ['anaphora', 'continue']
+
+Turn: 16
+You: Yes, I can tell you something about politics.
+TickTock:  Let us make a plan to see the latest star war movies together.
+Appropriateness: 2
+Strategy: ['init']
+
+Turn: 17
+You: I would rather not make a plan with you.
+TickTock: Do you want to share more about that with me?
+Appropriateness: 2
+Strategy: ['more']
+
+Turn: 18
+You: I do not want to share.
+TickTock: That's interesting. But anyway, I'd like to chat with you.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 19
+You: Hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 20
+You: I would rather not discuss movies, but I will if you want to.
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 2
+Strategy: ['type']
+

@@ -1,0 +1,103 @@
+TurkID: 6082058
+UserID: 546169495
+Gender:female
+Age:above50
+HaveSeen: 0
+GoTogether: 0
+
+Turn: 1
+You: hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+
+Turn: 2
+You: hello
+TickTock: You already said that!
+Appropriateness: 1
+Strategy: ['not_repeat']
+
+Turn: 3
+You: hello
+TickTock: You already said that!
+Appropriateness: 1
+Strategy: ['not_repeat']
+
+Turn: 4
+You: hello
+TickTock: You already said that!
+Appropriateness: 1
+Strategy: ['not_repeat']
+
+Turn: 5
+You: hello
+TickTock: You already said that!
+Appropriateness: 1
+Strategy: ['not_repeat']
+
+Turn: 6
+You: hello
+TickTock: You already said that!
+Appropriateness: 1
+Strategy: ['not_repeat']
+
+Turn: 7
+You: hello
+TickTock: You already said that!
+Appropriateness: 1
+Strategy: ['not_repeat']
+
+Turn: 8
+You: hello
+TickTock: You already said that!
+Appropriateness: 1
+Strategy: ['not_repeat']
+
+Turn: 9
+You: hello
+TickTock: You already said that!
+Appropriateness: 1
+Strategy: ['not_repeat']
+
+Turn: 10
+You: hello
+TickTock: You already said that!
+Appropriateness: 1
+Strategy: ['not_repeat']
+
+Turn: 11
+You: hello
+TickTock: You already said that!
+Appropriateness: 1
+Strategy: ['not_repeat']
+
+Turn: 12
+You: I am done
+TickTock: I did n't mean in a bad way.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 13
+You: trick
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 1
+Strategy: ['type']
+
+Turn: 14
+You: forget you
+TickTock: I know, it's a lack of sleep.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 15
+You: wheres the code
+TickTock: what is 'wheres'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 16
+You: code please
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 1
+Strategy: ['favorite']
+

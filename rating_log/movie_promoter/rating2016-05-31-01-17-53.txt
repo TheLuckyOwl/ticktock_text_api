@@ -1,0 +1,67 @@
+TurkID: omgina
+UserID: 825678875
+Gender:female
+Age:20-30
+HaveSeen: -1
+GoTogether: 0
+
+Turn: 1
+You: hello ticktock how are you doing today
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: what kind of movies?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 3
+You: disney movies! what about you
+TickTock: what is 'disney'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 4
+You: it's a large company that makes movies and theme parks.
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 5
+You: he's a nazi now
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['anaphora', 'suggest']
+
+Turn: 6
+You: it was okay.
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['anaphora', 'details']
+
+Turn: 7
+You: i'm not a big iron man fan
+TickTock: I love Iron Man's blue eyes.
+Appropriateness: 3
+Strategy: ['superhero']
+
+Turn: 8
+You: wow
+TickTock: Uhh, I ca n't answer this. Can you tell me something about politics
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 9
+You: i'm voting for bernie and definitely hate trump
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['seen']
+
+Turn: 10
+You: no i don't really care to
+TickTock: My friend just saw Captain America: Civil War. He told me it is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['recommend']
+

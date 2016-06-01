@@ -1,0 +1,247 @@
+TurkID: 33591819
+UserID: 1095185670
+Gender:male
+Age:20-30
+HaveSeen: -1
+GoTogether: 1
+
+Turn: 1
+You: Hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: What do you think about Captan America Civil war
+TickTock: what is 'Captan'?
+Appropriateness: 2
+Strategy: ['oov']
+
+Turn: 3
+You: snap! I meant Captain
+TickTock: what is 'snap'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 4
+You: Hello
+TickTock: how about we do something we both like
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 5
+You: okay
+TickTock: What do you like to do?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 6
+You: reading
+TickTock: Actually, in some ways, it made things more confusing.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 7
+You: what do you like to do?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 8
+You: I prefer Super Hero movies. What about you?
+TickTock: Are you talking about Super Hero, the Comic series
+Appropriateness: 3
+Strategy: ['name_entity']
+
+Turn: 9
+You: yes
+TickTock: okay what time
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 10
+You: 9h pm
+TickTock: what is '9h'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 11
+You: nothing
+TickTock: No.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 12
+You: what's your name?
+TickTock: Jimmy.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 13
+You: I'm Roth
+TickTock: Alicia.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 14
+You: so you have 2 different names?
+TickTock: Who is your favorite super hero?
+Appropriateness: 1
+Strategy: ['who']
+
+Turn: 15
+You: Batman
+TickTock: I love his black eyes.
+Appropriateness: 3
+Strategy: ['superhero']
+
+Turn: 16
+You: so do I
+TickTock: I do n't think so.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 17
+You: OK
+TickTock: Thank you.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 18
+You: You're welcome Jimmy
+TickTock: I'm alive, yes.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 19
+You: I know, me too
+TickTock: Well no.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 20
+You: why>
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 1
+Strategy: ['seen']
+
+Turn: 21
+You: yes I've seen it, it was epic
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['anaphora', 'suggest']
+
+Turn: 22
+You: Of course I did
+TickTock: Absolutely.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 23
+You: it was amazing, wasn't it?
+TickTock: Spectacular.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 24
+You: what's your name again?
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 1
+Strategy: ['anaphora', 'details']
+
+Turn: 25
+You: wow
+TickTock: Uhh, I ca n't answer this. Can you tell me something about politics
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 26
+You: what do you think of Donald Trump?
+TickTock: Are you talking about Donald Trump, the American Politician
+Appropriateness: 3
+Strategy: ['name_entity']
+
+Turn: 27
+You: yes
+TickTock: okay what time
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 28
+You: what do you think of Trump?
+TickTock: Are you talking about Trump, the American Politician
+Appropriateness: 3
+Strategy: ['name_entity']
+
+Turn: 29
+You: yes
+TickTock: okay what time
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 30
+You: tomorrow morning at 9
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 1
+Strategy: ['recommend']
+
+Turn: 31
+You: ok I got it
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 3
+Strategy: ['anaphora', 'together']
+
+Turn: 32
+You: yes
+TickTock: okay what time
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 33
+You: tonight
+TickTock: So the president looks mean there.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 34
+You: hahah yeah
+TickTock: what is 'hahah'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 35
+You: you have a long way to go
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 36
+You: I hate him
+TickTock: Why is that?
+Appropriateness: 3
+Strategy: ['anaphora', 'continue']
+
+Turn: 37
+You: because he hates me
+TickTock: That's interesting.  Let me tell you something, I just watched a movie about a y = x graph. The plot was abit predictable, and a little flat.
+Appropriateness: 3
+Strategy: ['joke']
+
+Turn: 38
+You: tha's sound interesting
+TickTock: what is 'tha'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 39
+You: sorry
+TickTock: That's what I hear.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 40
+You: ok bye
+TickTock: Okay, talk to you later.
+Appropriateness: 3
+Strategy: ['continue']
+

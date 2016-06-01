@@ -1,0 +1,73 @@
+TurkID: sierrapay
+UserID: 805584849
+Gender:female
+Age:above50
+HaveSeen: -1
+GoTogether: 0
+
+Turn: 1
+You: Hello Tick Tock. How are you?
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: I like movies also. What's your favorite genre?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['anaphora', 'type']
+
+Turn: 3
+You: I prefer Disney movies. Whick do you prefer?
+TickTock: Are you talking about Disney, the Mass media company
+Appropriateness: 3
+Strategy: ['name_entity']
+
+Turn: 4
+You: Yes, Disney made movies.
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 5
+You: I don't really like super hero movies.
+TickTock: Why not?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 6
+You: They just don't hold my interest.
+TickTock: They fire incredibly quickly.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 7
+You: Yes, but you have to be interested, and I am not.
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['suggest']
+
+Turn: 8
+You: No, no interest in seeing it.
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['anaphora', 'details']
+
+Turn: 9
+You: Really? You cried? 
+TickTock: Uh-huh, I do.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 10
+You: Wow, I can't believe you are that into fiction movies.
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['seen']
+
+Turn: 11
+You: No, again, not interested.
+TickTock: My friend just saw Captain America: Civil War. He told me it is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['recommend']
+

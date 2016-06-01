@@ -1,0 +1,97 @@
+TurkID: 37470585
+UserID: 1864521626
+Gender:male
+Age:20-30
+HaveSeen: 1
+GoTogether: 0
+
+Turn: 1
+You: hello how are you?
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+
+Turn: 2
+You: team cap?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 1
+Strategy: ['type']
+
+Turn: 3
+You: yes and you?
+TickTock: Glad I could help
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 4
+You: spanish?
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 1
+Strategy: ['favorite']
+
+Turn: 5
+You: talk spanish?
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 1
+Strategy: ['suggest']
+
+Turn: 6
+You: i saw it
+TickTock: Do you want to see it again?
+Appropriateness: 3
+Strategy: ['anaphora', 'continue']
+
+Turn: 7
+You: x men
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 1
+Strategy: ['details']
+
+Turn: 8
+You: x men
+TickTock: You already said that!
+Appropriateness: 3
+Strategy: ['not_repeat']
+
+Turn: 9
+You: i want to talk about x men
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 1
+Strategy: ['seen']
+
+Turn: 10
+You: yes and the avengers 2
+TickTock: My friend just saw Captain America: Civil War. He told me it is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 1
+Strategy: ['recommend']
+
+Turn: 11
+You: sure?
+TickTock: What time is it?
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 12
+You: 23:16
+TickTock: what is '23:16'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 13
+You: hour
+TickTock: I would say within 24 hours.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 14
+You: ok
+TickTock: Thank you.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 15
+You: for?
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 1
+Strategy: ['together']
+

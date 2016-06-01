@@ -1,0 +1,187 @@
+TurkID: 6082058
+UserID: 546169495
+Gender:female
+Age:above50
+HaveSeen: -1
+GoTogether: 1
+
+Turn: 1
+You: hello
+TickTock: Hello, hello.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 2
+You: what's the problem
+TickTock: It's really like Colin Firth and the ( INAUDIBLE ) and the fountain in `` Bridget Jones.''
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 3
+You: forg youet
+TickTock: what is 'forg'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 4
+You: firgwt
+TickTock: what is 'firgwt'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 5
+You: what is cheating
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 1
+Strategy: ['suggest']
+
+Turn: 6
+You: none of your business
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 1
+Strategy: ['anaphora', 'details']
+
+Turn: 7
+You: please really
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 1
+Strategy: ['seen']
+
+Turn: 8
+You: none of your business
+TickTock: My friend just saw Captain America: Civil War. He told me it is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 1
+Strategy: ['anaphora', 'recommend']
+
+Turn: 9
+You: so
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 1
+Strategy: ['together']
+
+Turn: 10
+You: dont care
+TickTock: Well, you know, I'm not sure. Let me know something you're interested in.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 11
+You: fat chance
+TickTock: That's interesting. Let me know something you're interested in.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 12
+You: honesty
+TickTock: Do you want to share more about that with me?
+Appropriateness: 1
+Strategy: ['more']
+
+Turn: 13
+You: when you say something you should own up to it
+TickTock: Uhh, I can't answer this.  Let me tell you something, We never really grow up, we only learn how to act in public.
+Appropriateness: 1
+Strategy: ['anaphora', 'joke']
+
+Turn: 14
+You: do we stop telling lies
+TickTock:  Let's find a time to see the latest super hero movie.
+Appropriateness: 1
+Strategy: ['init']
+
+Turn: 15
+You: anwser the question
+TickTock: what is 'anwser'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 16
+You: answer
+TickTock: Not doing that.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 17
+You: you should
+TickTock: Uh-huh, I do.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 18
+You: really
+TickTock: That's interesting. That's interesting.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 19
+You: something  needs ro done
+TickTock: Uhh, I can't answer this. Can you share some interesting stuff with me?
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 20
+You: none of your business
+TickTock:  Let's find a time to see the latest super hero movie.
+Appropriateness: 1
+Strategy: ['anaphora', 'init']
+
+Turn: 21
+You: no way
+TickTock: I don't know. Let me know something you're interested in.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 22
+You: nothing
+TickTock: No.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 23
+You: no no
+TickTock: ok. Can we talk about something else?
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 24
+You: no
+TickTock: ok. Great. Let's talk other stuff then.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 25
+You: no
+TickTock: You already said that!
+Appropriateness: 1
+Strategy: ['not_repeat']
+
+Turn: 26
+You: so what
+TickTock: ok. Let me know something you're interested in.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 27
+You: no way
+TickTock: ok. Can you share some interesting stuff with me?
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 28
+You: no no
+TickTock: ok. What do you think about sports
+Appropriateness: 1
+Strategy: ['switch']
+
+Turn: 29
+You: none of your business
+TickTock: Uhh, I can't answer this. Great. Let's talk other stuff then.
+Appropriateness: 1
+Strategy: ['anaphora', 'end']
+
+Turn: 30
+You: no no
+TickTock: Well, you know, I'm not sure. That's interesting.
+Appropriateness: 1
+Strategy: ['end']
+

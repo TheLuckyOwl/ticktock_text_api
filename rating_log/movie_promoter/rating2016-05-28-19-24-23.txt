@@ -1,0 +1,80 @@
+TurkID: A3444N66OBPVBG
+UserID: 579203058
+Gender:female
+Age:30-40
+HaveSeen:0
+GoTogether:0
+
+Turn: 1
+You: Hi
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: Ok
+TickTock: Thank you.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 3
+You: What kind of movies do you like?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 2
+Strategy: ['type']
+
+Turn: 4
+You: Disney
+TickTock: Uhh, I can't answer this. What do you think about board games
+Appropriateness: 1
+Strategy: ['switch']
+
+Turn: 5
+You: They are fun.
+TickTock: I'm not saying that.
+Appropriateness: 1
+Strategy: ['anaphora', 'continue']
+
+Turn: 6
+You: Do you like board games?
+TickTock: Operation! The goofy game for dopey doctors!
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 7
+You: That game is hard.
+TickTock:  Do you like to play some board games together next time with me?
+Appropriateness: 1
+Strategy: ['init']
+
+Turn: 8
+You: Sure
+TickTock: how about we do something we both like
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 9
+You: Ok like what?
+TickTock:  Do you like to play some board games together next time with me?
+Appropriateness: 1
+Strategy: ['init']
+
+Turn: 10
+You: Yes
+TickTock: okay what time
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 11
+You: 1:00
+TickTock:  Do you like to play some board games together next time with me?
+Appropriateness: 1
+Strategy: ['init']
+
+Turn: 12
+You: yES
+TickTock: okay what time
+Appropriateness: 3
+Strategy: ['continue']
+
+

@@ -1,0 +1,67 @@
+TurkID: 123
+UserID: 1685263117
+Gender:male
+Age:20-30
+HaveSeen: 0
+GoTogether: 0
+
+Turn: 1
+You: hi
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: do you like movie?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 3
+You: yes
+TickTock: okay what time
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 4
+You: at night
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 5
+You: ok
+TickTock: Thank you.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 6
+You: thanks too
+TickTock: What is the weather like today?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 7
+You: its rain
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 2
+Strategy: ['anaphora', 'suggest']
+
+Turn: 8
+You: yes
+TickTock: okay what time
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 9
+You: avenger
+TickTock: what is 'avenger'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 10
+You: its movie
+TickTock: Anything.
+Appropriateness: 2
+Strategy: ['continue']
+

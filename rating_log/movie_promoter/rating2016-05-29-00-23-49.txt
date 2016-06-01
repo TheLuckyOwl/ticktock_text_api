@@ -1,0 +1,67 @@
+TurkID: A2ADHMNRK6NJS5
+UserID: 1266586674
+Gender:female
+Age:above50
+HaveSeen: -1
+GoTogether: 1
+
+Turn: 1
+You: Hello Ticktock, how are you?
+TickTock: Hello, hello.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 2
+You: What is the weather like?
+TickTock: it's too hot out
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 3
+You: What is your favorite season?
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 1
+Strategy: ['suggest']
+
+Turn: 4
+You: What is your favorite color?
+TickTock: My favorite one is blue
+Appropriateness: 3
+Strategy: ['anaphora', 'continue']
+
+Turn: 5
+You: Do you drive a car?
+TickTock: 
+Appropriateness: 1
+Strategy: 
+
+Turn: 6
+You: What is tomorrow?
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 1
+Strategy: ['recommend']
+
+Turn: 7
+You: What is your favorite movie?
+TickTock: Well, the first movie I ever saw more than once was `` High Noon.''
+Appropriateness: 3
+Strategy: ['anaphora', 'continue']
+
+Turn: 8
+You: Do you like Gary Cooper?
+TickTock: Are you talking about Gary Cooper, the Film actor
+Appropriateness: 2
+Strategy: ['name_entity']
+
+Turn: 9
+You: yes
+TickTock: okay what time
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 10
+You: What is your favorite day of the week?
+TickTock: Do you want to share more about that with me?
+Appropriateness: 1
+Strategy: ['anaphora', 'more']
+

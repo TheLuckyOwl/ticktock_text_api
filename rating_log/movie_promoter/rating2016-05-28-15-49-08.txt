@@ -1,0 +1,338 @@
+TurkID: zhouyu
+UserID: 989775824
+Turn: 1
+You: Hello
+TickTock: Hello, I really like music. How about we talk about music
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: Hello
+TickTock: You already said that!
+Appropriateness: 3
+Strategy: ['not_repeat']
+
+Turn: 3
+You: YOu are weird
+TickTock: Yes.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 4
+You: I hate you
+TickTock: Why is that?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 5
+You: You need a mom
+TickTock: Uh-huh, I do.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 6
+You: Go to hell
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 2
+Strategy: ['recommend']
+
+Turn: 7
+You: You are ok.
+TickTock: Yeah, I'm fine.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 8
+You: I like that movie.
+TickTock: I do not.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 9
+You: You said you do like that.
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 10
+You: I can see that.
+TickTock: Here's the ring.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 11
+You: My favorite super hero is batman
+TickTock: I love his black eyes.
+Appropriateness: 3
+Strategy: ['superhero']
+
+Turn: 12
+You: yeah, he is charming.
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 3
+Strategy: ['anaphora', 'together']
+
+Turn: 13
+You: Yes. I want to.
+TickTock: ok, when do you time
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 14
+You: how about tomorrow.
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 1
+Strategy: ['type']
+
+Turn: 15
+You: disney movies.
+TickTock:
+Appropriateness: 1
+Strategy:
+
+Turn: 16
+You: Hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 17
+You: That's cool
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 2
+Strategy: ['type']
+
+Turn: 18
+You: disney movies.
+TickTock: no_movie_recommend
+Appropriateness: 1
+Strategy: ['switch']
+
+Turn: 19
+You: Hello
+TickTock:
+Appropriateness: 1
+Strategy:
+
+Turn: 20
+You: Hello
+TickTock: Hello, I really like politics. How about we talk about politics
+Appropriateness: 3
+Strategy: new
+
+Turn: 21
+You: Hello
+TickTock:
+Appropriateness: 1
+Strategy:
+
+Turn: 22
+You: Hello
+TickTock:
+Appropriateness: 1
+Strategy:
+
+Turn: 23
+You: Hello
+TickTock:
+Appropriateness: 1
+Strategy:
+
+Turn: 24
+You: Hello
+TickTock:
+Appropriateness: 1
+Strategy:
+
+Turn: 25
+You: Hello
+TickTock:
+Appropriateness: 1
+Strategy:
+
+Turn: 26
+You: Hello
+TickTock:
+Appropriateness: 1
+Strategy:
+
+Turn: 27
+You: Hello
+TickTock:
+Appropriateness: 1
+Strategy:
+
+Turn: 28
+You: Hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 29
+You: Sure. What do you want to talk about.
+TickTock:
+Appropriateness: 1
+Strategy:
+
+Turn: 30
+You: Hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 31
+You: sure, what do you want to talk about?
+TickTock: Who is your favorite super hero?
+Appropriateness: 3
+Strategy: ['who']
+
+Turn: 32
+You: My favorite super hero is batman
+TickTock: I love his black eyes.
+Appropriateness: 3
+Strategy: ['superhero']
+
+Turn: 33
+You: yeah, he is charming.
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 2
+Strategy: ['anaphora', 'recommend']
+
+Turn: 34
+You: Oh, really.
+TickTock: Yes, really.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 35
+You: I haven't seen that one yet.
+TickTock: What I meant to say was, what is it that you hate?
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 36
+You: I don't hate anything.
+TickTock: So you're less intelligent than a computer?!
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 37
+You: You are being rude.
+TickTock: And you're ugly but I can change my personality.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 38
+You: You are funny.
+TickTock: As is evidenced by this interview no. What's your idea?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 39
+You: I think you are too proud.
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 1
+Strategy: ['suggest']
+
+Turn: 40
+You: Yes. I have.
+TickTock: ok, when do you time
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 41
+You: I don't have time.
+TickTock: What I meant to say was, what is it that you hate?
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 42
+You: You already said that.
+TickTock: Oh, sorry to repeat myself.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 43
+You: Why do you like superhero movies.
+TickTock: what is 'superhero'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 44
+You: superhero is super hero
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 2
+Strategy: ['details']
+
+Turn: 45
+You: It is a very touchy sceen.
+TickTock: It is.
+Appropriateness: 3
+Strategy: ['anaphora', 'continue']
+
+Turn: 46
+You: Who is your favorite super hero.
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 47
+You: He is pretty good.
+TickTock: Yes, he is.
+Appropriateness: 3
+Strategy: ['anaphora', 'continue']
+
+Turn: 48
+You: What do you like him about.
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 2
+Strategy: ['together']
+
+Turn: 49
+You: Yes. that sounds fun.
+TickTock: I'm too tired.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 50
+You: I can see that.
+TickTock: That's good, because I'm right.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 51
+You: That's enough deal
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 1
+Strategy: ['type']
+
+Turn: 52
+You: I like super hero movies more.
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['seen']
+
+Turn: 53
+You: No. I haven't.
+TickTock: ok
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 54
+You: You are very funny.
+TickTock: As is evidenced by this interview no. What's your idea?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 55
+You: I think you are too clever.
+TickTock: I don't know. But anyway, I'd like to chat with you.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 56
+You: Me too.
+TickTock: Yes, you.
+Appropriateness: 2
+Strategy: ['continue']
+

@@ -1,0 +1,127 @@
+TurkID: 35849301
+UserID: 956838592
+Gender:female
+Age:above50
+HaveSeen: -1
+GoTogether: 1
+
+Turn: 1
+You: Hi again,how are you?
+TickTock: You're very famous now.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 2
+You: I'm so happy for you!
+TickTock: Tell me what it's like to be a boring.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 3
+You: It's kind of complicate to explane.
+TickTock: what is 'complicate'?
+Appropriateness: 3
+Strategy: ['anaphora', 'oov']
+
+Turn: 4
+You: too difficlt
+TickTock: what is 'difficlt'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 5
+You: hard to explane
+TickTock: what is 'explane'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 6
+You: to tell you,what is it
+TickTock: I don't know. Can we talk about something else?
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 7
+You: sure we can.Talk to me please
+TickTock: what is 'can.Talk'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 8
+You: can-it's a word:)))
+TickTock: what is 'can-it'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 9
+You: i don't know,how to explane
+TickTock: I don't know. Let me know something you're interested in.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 10
+You: i love cats
+TickTock: That's interesting. That's interesting.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 11
+You: do you know what cat is?
+TickTock: Could you tell me more about that?
+Appropriateness: 3
+Strategy: ['more']
+
+Turn: 12
+You: about CATS?
+TickTock: Are you talking about CATS, the Animal
+Appropriateness: 3
+Strategy: ['name_entity']
+
+Turn: 13
+You: Yes,i'm talking about animals named CATS
+TickTock: Well, you know, I'm not sure. But anyway, I'd like to chat with you.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 14
+You: Very glad to hear this
+TickTock: Well, you know, I'm not sure. Can you share some interesting stuff with me?
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 15
+You: about cats only
+TickTock: ok. That's interesting.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 16
+You: i have a cat,he's name is Guriy
+TickTock: what is 'Guriy'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 17
+You: This is cat's name
+TickTock: That's interesting. Great. Let's talk other stuff then.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 18
+You: what you want to talk about?
+TickTock: ok. Great. Let's talk other stuff then.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 19
+You: What is "stuff"?:)
+TickTock: Uhh, I can't answer this. Great. Let's talk other stuff then.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 20
+You: Thank you for conversation.It was nice to meet you!
+TickTock: what is 'conversation.It'?
+Appropriateness: 3
+Strategy: ['oov']
+

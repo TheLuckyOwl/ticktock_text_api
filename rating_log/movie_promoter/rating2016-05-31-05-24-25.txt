@@ -1,0 +1,145 @@
+TurkID: 37585340
+UserID: 1377821528
+Gender:female
+Age:20-30
+HaveSeen: 0
+GoTogether: 0
+
+Turn: 1
+You: hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: what is your favorite movie
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 1
+Strategy: ['anaphora', 'type']
+
+Turn: 3
+You: disney
+TickTock: ok. What do you think about sports
+Appropriateness: 3
+Strategy: ['switch']
+
+Turn: 4
+You: hate them
+TickTock: That's interesting. Let me know something you're interested in.
+Appropriateness: 3
+Strategy: ['anaphora', 'end']
+
+Turn: 5
+You: scrapbooking
+TickTock: what is 'scrapbooking'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 6
+You: gluing pictures and paper together
+TickTock: what is 'gluing'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 7
+You: pasting
+TickTock: what is 'pasting'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 8
+You: using glue to attach things to one another
+TickTock: That's interesting. Let me know something you're interested in.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 9
+You: children
+TickTock: Yes.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 10
+You: what
+TickTock: Well, you know, I'm not sure. Can we talk about something else?
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 11
+You: like
+TickTock:  Let us find a type of sports we both like.
+Appropriateness: 3
+Strategy: ['init']
+
+Turn: 12
+You: baseball
+TickTock: I don't know.  Do you know that the easiest sport to get into is limbo, they don't set the bar very high.
+Appropriateness: 2
+Strategy: ['joke']
+
+Turn: 13
+You: wow
+TickTock: Uhh, I ca n't answer this. Can you tell me something about politics
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 14
+You: the president is black
+TickTock: ok.  People usually spend much more time watching sports than actually playing any.
+Appropriateness: 1
+Strategy: ['joke']
+
+Turn: 15
+You: football
+TickTock: Football is very homoerotic to me! Is it the same for you?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 16
+You: no
+TickTock: ok. Can you share some interesting stuff with me?
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 17
+You: like what
+TickTock: You and I could play a game.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 18
+You: ok
+TickTock: Thank you.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 19
+You: lets play a game
+TickTock: Do you want to share more about that with me?
+Appropriateness: 1
+Strategy: ['more']
+
+Turn: 20
+You: knock knock
+TickTock: Uhh, I can't answer this.  Do you know that the easiest sport to get into is limbo, they don't set the bar very high.
+Appropriateness: 1
+Strategy: ['joke']
+
+Turn: 21
+You: what can you answer
+TickTock: That's interesting. Can you share some interesting stuff with me?
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 22
+You: how long do i have to talk to you
+TickTock: ok. But anyway, I'd like to chat with you.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 23
+You: i am chatting
+TickTock: Uhh, I can't answer this. Can we talk about something else?
+Appropriateness: 1
+Strategy: ['end']
+

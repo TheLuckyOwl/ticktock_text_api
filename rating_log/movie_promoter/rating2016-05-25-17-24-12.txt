@@ -1,0 +1,62 @@
+TurkID: AHVBQLAKS76X2
+UserID: 1628311296
+Turn: 1
+You: Hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: Okay, let's discuss movies.
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['suggest']
+
+Turn: 3
+You: I have not seen that movie.
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['recommend']
+
+Turn: 4
+You: I don't like captain america
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 5
+You: I prefer Disney movies
+TickTock: Are you talking about Disney, the Mass media company
+Appropriateness: 3
+Strategy: ['name_entity']
+
+Turn: 6
+You: I am talking about Disney, yes
+TickTock: Are you talking about Disney, the Mass media company
+Appropriateness: 2
+Strategy: ['name_entity']
+
+Turn: 7
+You: Yes, I am talking about Disney, the mass media company
+TickTock: Are you talking about Disney, the Mass media company
+Appropriateness: 2
+Strategy: ['name_entity']
+
+Turn: 8
+You: Yes, I am.
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 2
+Strategy: ['favorite']
+
+Turn: 9
+You: I do not have a favorite super hero.
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['details']
+
+Turn: 10
+You: Wow, do you cry at movies often?
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 2
+Strategy: ['seen']
+

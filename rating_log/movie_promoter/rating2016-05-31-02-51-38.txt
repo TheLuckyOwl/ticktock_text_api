@@ -1,0 +1,73 @@
+TurkID: sierrapay
+UserID: 805584849
+Gender:female
+Age:above50
+HaveSeen: -1
+GoTogether: -1
+
+Turn: 1
+You: Hello Tick Tock. How are you?
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 3
+Strategy: ['together']
+
+Turn: 2
+You: I don't really like super hero movies.
+TickTock: Why not?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 3
+You: Just not interested.
+TickTock: I don't know. But anyway, I'd like to chat with you.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 4
+You: I'd like to chat with you also.
+TickTock: Let's talk more about that?
+Appropriateness: 3
+Strategy: ['more']
+
+Turn: 5
+You: About what? Have we decided?
+TickTock: Uhh, I can't answer this. Great. Let's talk other stuff then.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 6
+You: Ok, what other stuff?
+TickTock: Uhh, I can't answer this. Can you share some interesting stuff with me?
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 7
+You: I like to read books.
+TickTock: That's interesting. Let me know something you're interested in.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 8
+You: I just did.
+TickTock: That's good, because I'm right.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 9
+You: Right about what?
+TickTock: ok. Let me know something you're interested in.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 10
+You: I already did.
+TickTock: Do you want to see it again?
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 11
+You: See what again?
+TickTock: I don't know. Great. Let's talk other stuff then.
+Appropriateness: 3
+Strategy: ['end']
+

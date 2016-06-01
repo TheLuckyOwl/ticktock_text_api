@@ -1,0 +1,97 @@
+TurkID: 6348382
+UserID: 1799621302
+Gender:female
+Age:20-30
+HaveSeen: -1
+GoTogether: -1
+
+Turn: 1
+You: Hello ticktock
+TickTock: Hello, hello.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 2
+You: how are you?
+TickTock: Sad that I'm not a real human boy.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 3
+You: oh what are you?
+TickTock: I don't know. That's interesting.
+Appropriateness: 2
+Strategy: ['end']
+
+Turn: 4
+You: hmm. are you a computer? or a robot?
+TickTock: I don't know. That's interesting.
+Appropriateness: 2
+Strategy: ['end']
+
+Turn: 5
+You: okay then.. do you tell jokes?
+TickTock: what is 'then..'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 6
+You: okay then.. do you tell jokes?
+TickTock: 
+Appropriateness: 1
+Strategy: 
+
+Turn: 7
+You: its then
+TickTock: I don't know. Can you share some interesting stuff with me?
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 8
+You: what is your favorite color?
+TickTock: Uhh, I can't answer this. That's interesting.
+Appropriateness: 2
+Strategy: ['anaphora', 'end']
+
+Turn: 9
+You: do you like music?
+TickTock: Anything that sounds good when I'm getting high.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 10
+You: okay. what about movies?
+TickTock: ok. Can we talk about something else?
+Appropriateness: 2
+Strategy: ['end']
+
+Turn: 11
+You: what else ticktock?
+TickTock: Well, you know, I'm not sure. Can we talk about something else?
+Appropriateness: 2
+Strategy: ['end']
+
+Turn: 12
+You: what would you like to talk about?
+TickTock: I don't know. Can you share some interesting stuff with me?
+Appropriateness: 2
+Strategy: ['end']
+
+Turn: 13
+You: do you like the x-men?
+TickTock: what is 'x-men'?
+Appropriateness: 2
+Strategy: ['oov']
+
+Turn: 14
+You: they are superhereos
+TickTock: I'm not saying that.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 15
+You: okay but why not?
+TickTock: What do you like to do?
+Appropriateness: 1
+Strategy: ['continue']
+

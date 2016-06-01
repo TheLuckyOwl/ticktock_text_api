@@ -1,0 +1,86 @@
+TurkID: A3BMEVFSETVOUR
+UserID: 1718057631
+Turn: 1
+You: Hello, I am dennis
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: I like movies too
+TickTock: I like pop music.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 3
+You: I like rap music
+TickTock: I like pop music.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 4
+You: I hate pop music
+TickTock: I like pop music.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 5
+You: That is nice.
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 2
+Strategy: ['favorite']
+
+Turn: 6
+You: He is pretty cool. I like spider man
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['anaphora', 'seen']
+
+Turn: 7
+You: Yes I have!
+TickTock: ok, when do you time
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 8
+You: I dont know
+TickTock: what is 'dont'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 9
+You: I do not know
+TickTock: Yes. What do you think?
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 10
+You: It is a good movie
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['suggest']
+
+Turn: 11
+You: Yes, it is fun
+TickTock: Who is your favorite super hero?
+Appropriateness: 3
+Strategy: ['anaphora', 'who']
+
+Turn: 12
+You: Spider-Man
+TickTock: Will you be serious, and say something in a complete sentence?
+Appropriateness: 1
+Strategy: ['short_answer']
+
+Turn: 13
+You: Spider-Man is my favorite superhero, you dick
+TickTock: what is 'Spider-Man'?
+Appropriateness: 2
+Strategy: ['oov']
+
+Turn: 14
+You: He is a superhero
+TickTock: Yes, he is.
+Appropriateness: 3
+Strategy: ['continue']
+

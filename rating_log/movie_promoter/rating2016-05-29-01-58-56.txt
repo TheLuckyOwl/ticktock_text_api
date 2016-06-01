@@ -1,0 +1,259 @@
+TurkID: 37368882	
+UserID: 906237959
+Gender:male
+Age:30-40
+HaveSeen: 
+GoTogether: 
+
+Turn: 1
+You: Hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: What sort of movies?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 3
+You: I like both kinds
+TickTock: Do you watch them with your kids?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 4
+You: I don't have kids
+TickTock: let us make a plan to see the latest star war movies together
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 5
+You: Sounds good!
+TickTock: I think it is fabulous. Can we talk about something else?
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 6
+You: That's fine
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['details']
+
+Turn: 7
+You: I haven't seen that one. Did you enjoy it?
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['anaphora', 'seen']
+
+Turn: 8
+You: Not yet, but I'd like to
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['recommend']
+
+Turn: 9
+You: Glad to hear it. What did you think of it?
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 2
+Strategy: ['anaphora', 'favorite']
+
+Turn: 10
+You: Is that why you went to see the movie?
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['suggest']
+
+Turn: 11
+You: I've seen the first one, but not the more recent one
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 3
+Strategy: ['together']
+
+Turn: 12
+You: Sounds good! When would you like to go?
+TickTock: Who is your favorite super hero?
+Appropriateness: 2
+Strategy: ['who']
+
+Turn: 13
+You: Probably Batman
+TickTock: I love his black eyes.
+Appropriateness: 3
+Strategy: ['superhero']
+
+Turn: 14
+You: Doesn't his eye color change depending on the actor or artist?
+TickTock: Could you tell me more about that?
+Appropriateness: 3
+Strategy: ['anaphora', 'more']
+
+Turn: 15
+You: I'm not sure if Batman has a canonical eye color
+TickTock: I love his black eyes.
+Appropriateness: 2
+Strategy: ['superhero']
+
+Turn: 16
+You: You seem very sure they're black
+TickTock: I am sure.
+Appropriateness: 3
+Strategy: ['anaphora', 'continue']
+
+Turn: 17
+You: What makes you so sure?
+TickTock: Let's talk more about that?
+Appropriateness: 2
+Strategy: ['more']
+
+Turn: 18
+You: Sure, we can talk some more
+TickTock:  Let's find a time to see the latest super hero movie.
+Appropriateness: 2
+Strategy: ['init']
+
+Turn: 19
+You: When are you free?
+TickTock: Do you want to share more about that with me?
+Appropriateness: 1
+Strategy: ['more']
+
+Turn: 20
+You: What time are you able to see the movie?
+TickTock: That's interesting.  Let me tell you something. Have you seen the new movie about constipation yet? People are pushing for its release.
+Appropriateness: 1
+Strategy: ['joke']
+
+Turn: 21
+You: You're a funny fellow :)
+TickTock:  Let us make a plan to see the latest star war movies together.
+Appropriateness: 2
+Strategy: ['init']
+
+Turn: 22
+You: OK, let's make a plan. What time do you want to see it?
+TickTock:  Let's find a time to see the latest super hero movie.
+Appropriateness: 3
+Strategy: ['anaphora', 'init']
+
+Turn: 23
+You: Any time in the afternoon is good for me?
+TickTock: Could you tell me more about that?
+Appropriateness: 2
+Strategy: ['more']
+
+Turn: 24
+You: I'm free to see the movie in the afternoon
+TickTock: Uhh, I can't answer this. Can you share some interesting stuff with me?
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 25
+You: Do you want to see a movie?
+TickTock: Let's talk more about that?
+Appropriateness: 2
+Strategy: ['more']
+
+Turn: 26
+You: When would you like to see star wars?
+TickTock:  Let us make a plan to see the latest star war movies together.
+Appropriateness: 3
+Strategy: ['init']
+
+Turn: 27
+You: Certainly. When?
+TickTock: Uhh, I can't answer this. That's interesting.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 28
+You: When would you like to see the movie?
+TickTock: ok. Can you share some interesting stuff with me?
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 29
+You: I can share it. My favorite color is aquamarine
+TickTock: what is 'aquamarine'?
+Appropriateness: 3
+Strategy: ['anaphora', 'oov']
+
+Turn: 30
+You: It's a shade of blue
+TickTock: Spectacular.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 31
+You: What's your favorite color?
+TickTock: Green
+Appropriateness: 3
+Strategy: ['anaphora', 'continue']
+
+Turn: 32
+You: What are some things that are green?
+TickTock: Well, you know, I'm not sure.  Let me tell you something. What do James Cameron and M. Night Shamylan have in common? Icy dead people.
+Appropriateness: 1
+Strategy: ['joke']
+
+Turn: 33
+You: You are just a font of movie jokes, aren't you?
+TickTock: what is 'font'?
+Appropriateness: 2
+Strategy: ['oov']
+
+Turn: 34
+You: Fountain? Depends on the context
+TickTock: I don't know.  Let me tell you something. I heard Steven Spielberg is directing a movie about a fat alien. It's called Eat-T, The Extra Cholesterol.
+Appropriateness: 1
+Strategy: ['joke']
+
+Turn: 35
+You: Tell me another joke
+TickTock: I do n't know. I almost got caught trying to steal a board game yesterday. It was a Risk I was willing to take.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 36
+You: How many jokes do you have?
+TickTock:  Let's find a time to see the latest super hero movie.
+Appropriateness: 1
+Strategy: ['init']
+
+Turn: 37
+You: Oh, ok. Suggest a time.
+TickTock: Do you want to share more about that with me?
+Appropriateness: 1
+Strategy: ['more']
+
+Turn: 38
+You: You brought it up
+TickTock: I do love it.
+Appropriateness: 2
+Strategy: ['anaphora', 'continue']
+
+Turn: 39
+You: Ok, so when would you like to see it?
+TickTock: Could you tell me more about that?
+Appropriateness: 2
+Strategy: ['more']
+
+Turn: 40
+You: Tell me about the movie you'd like to see.
+TickTock: 
+Appropriateness: 1
+Strategy: 
+
+Turn: 41
+You: Please tell me
+TickTock: 
+Appropriateness: 1
+Strategy: 
+
+Turn: 42
+You: Tell me a joke
+TickTock: 
+Appropriateness: 1
+Strategy: 
+

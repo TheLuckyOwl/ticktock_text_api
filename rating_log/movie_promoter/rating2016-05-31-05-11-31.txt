@@ -1,0 +1,127 @@
+TurkID: 33935063
+UserID: 1448204182
+Gender:female
+Age:30-40
+HaveSeen: -1
+GoTogether: 0
+
+Turn: 1
+You: Hello!
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: Do you like old movies?
+TickTock: I do n't go very often.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 3
+You: Then why do you want to talk about movies?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 1
+Strategy: ['type']
+
+Turn: 4
+You: I like neither.
+TickTock: Do you watch them with your kids?
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 5
+You: I have no kids.
+TickTock: let us make a plan to see the latest star war movies together
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 6
+You: I barely know you, TickTock.
+TickTock: Are you talking about TickTock, the Novel by Dean Koontz
+Appropriateness: 1
+Strategy: ['name_entity']
+
+Turn: 7
+You: No, I'm talking about you.
+TickTock: What's your idea of good listening music?
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 8
+You: Freeform radio. Do you have a favorite radio station?
+TickTock: what is 'Freeform'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 9
+You: You'll just have to listen to find out. Try 90.7 FM.
+TickTock: what is '90.7'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 10
+You: It's an FM radio station.
+TickTock: what is 'FM'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 11
+You: You have a lot of learning to do, TickTock.
+TickTock: Are you talking about TickTock, the Novel by Dean Koontz
+Appropriateness: 1
+Strategy: ['name_entity']
+
+Turn: 12
+You: I already said no.
+TickTock: ok, when do you time
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 13
+You: Later.
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 2
+Strategy: ['favorite']
+
+Turn: 14
+You: I don't have much interest in super heroes. Movies or comics or anything.
+TickTock: what is 'comics'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 15
+You: That's where a lot of super hero movies come from.
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['suggest']
+
+Turn: 16
+You: No. Why do you like it?
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['anaphora', 'details']
+
+Turn: 17
+You: Do you connect with Iron Man?
+TickTock: I love Iron Man's blue eyes.
+Appropriateness: 3
+Strategy: ['superhero']
+
+Turn: 18
+You: Do you have a crush on Iron Man?
+TickTock: I love Iron Man's blue eyes.
+Appropriateness: 3
+Strategy: ['superhero']
+
+Turn: 19
+You: I don't think he has blue eyes.
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 2
+Strategy: ['anaphora', 'seen']
+
+Turn: 20
+You: No I have not.
+TickTock: ok
+Appropriateness: 3
+Strategy: ['continue']
+

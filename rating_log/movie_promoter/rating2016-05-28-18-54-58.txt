@@ -1,0 +1,79 @@
+TurkID: 37635103
+UserID: 1533679203
+Gender:male
+Age:30-40
+HaveSeen: 0
+GoTogether: 0
+
+Turn: 1
+You: Hi all, how are you?
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 2
+You: I was also like, what genre?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 3
+You: some
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 2
+Strategy: ['details']
+
+Turn: 4
+You: I do not like for me top film Schindler List
+TickTock: Are you talking about Schindler, the Manufacturing company
+Appropriateness: 3
+Strategy: ['name_entity']
+
+Turn: 5
+You: not the company, but the film Schindler's List
+TickTock: what is 'Schindler'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 6
+You: He saved many people from death during World War II
+TickTock: I love Death's variable eyes.
+Appropriateness: 2
+Strategy: ['superhero']
+
+Turn: 7
+You:  I can not understand you
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['recommend']
+
+Turn: 8
+You: this movie I do not like are fictitious,
+TickTock: what is 'fictitious'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 9
+You: not real and fictional
+TickTock: what is 'fictional'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 10
+You: Captain America is fictional
+TickTock: I love Captain America's blue eyes.
+Appropriateness: 3
+Strategy: ['superhero']
+
+Turn: 11
+You: I do not know do not know him
+TickTock: Who is your favorite super hero?
+Appropriateness: 3
+Strategy: ['anaphora', 'who']
+
+Turn: 12
+You: My favorite superhero is Batman
+TickTock: I love his black eyes.
+Appropriateness: 3
+Strategy: ['superhero']
+

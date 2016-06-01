@@ -1,0 +1,67 @@
+TurkID: A2ADHMNRK6NJS5
+UserID: 1266586674
+Gender:female
+Age:above50
+HaveSeen: -1
+GoTogether: 1
+
+Turn: 1
+You: Hello Ticktock, how are you?
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+
+Turn: 2
+You: what is your favorite superhero
+TickTock: what is 'superhero'?
+Appropriateness: 3
+Strategy: ['anaphora', 'oov']
+
+Turn: 3
+You: Super hero
+TickTock:
+Appropriateness: 2
+Strategy:
+
+Turn: 4
+You: what is your favorite super hero
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 1
+Strategy: ['type']
+
+Turn: 5
+You: I like super hero movies
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 3
+Strategy: ['together']
+
+Turn: 6
+You: Yes, I would like to see this movie
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 2
+Strategy: ['seen']
+
+Turn: 7
+You: No, I haven't seen it yet
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['anaphora', 'favorite']
+
+Turn: 8
+You: What do you like about him?
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 1
+Strategy: ['anaphora', 'details']
+
+Turn: 9
+You: That was a good movie
+TickTock: Who is your favorite super hero?
+Appropriateness: 2
+Strategy: ['who']
+
+Turn: 10
+You: I like Superman
+TickTock: Do you watch them with your kids?
+Appropriateness: 1
+Strategy: ['continue']
+

@@ -1,0 +1,74 @@
+TurkID: A3FUW3458K3KO
+UserID: 439669791
+Turn: 1
+You: Hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: We can do that
+TickTock: We do.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 3
+You: Ok then
+TickTock: Thank you.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 4
+You: No problem
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['details']
+
+Turn: 5
+You: It was pretty touching
+TickTock: Well, I think that the Republican Party is beginning not only to look at the polls and see that they are digging themselves a deeper and deeper a hole and of course when you're digging a deep hole you do n't want to continue to dig.
+Appropriateness: 1
+Strategy: ['anaphora', 'continue']
+
+Turn: 6
+You: That's a bit off topic, but I do understand
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 1
+Strategy: ['seen']
+
+Turn: 7
+You: No
+TickTock: Will you be serious, and say something in a complete sentence?
+Appropriateness: 1
+Strategy: ['short_answer']
+
+Turn: 8
+You: Yes, I can do that.
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 1
+Strategy: ['recommend']
+
+Turn: 9
+You: That's good to hear.
+TickTock: Who is your favorite super hero?
+Appropriateness: 3
+Strategy: ['who']
+
+Turn: 10
+You: Batman
+TickTock: Will you be serious, and say something in a complete sentence?
+Appropriateness: 1
+Strategy: ['short_answer']
+
+Turn: 11
+You: Yes, I can do that.
+TickTock: You already said that!
+Appropriateness: 1
+Strategy: ['not_repeat']
+
+Turn: 12
+You: It was relevant again...
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 1
+Strategy: ['favorite']
+

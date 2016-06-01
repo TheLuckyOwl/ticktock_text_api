@@ -1,0 +1,62 @@
+TurkID:  A2SNX0RFIPIO60
+UserID: 392291692
+Turn: 1
+You: Hello Tick Tock
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: That sounds fun. what movies do you like
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 3
+You: I like spiderman
+TickTock: what is 'spiderman'?
+Appropriateness: 2
+Strategy: ['oov']
+
+Turn: 4
+You: he is a super hero in a movie
+TickTock: Who is your favorite super hero?
+Appropriateness: 2
+Strategy: ['who']
+
+Turn: 5
+You: spiderman
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['suggest']
+
+Turn: 6
+You: Yes, it was great
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['anaphora', 'details']
+
+Turn: 7
+You: i like horror movies too
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['seen']
+
+Turn: 8
+You: no, but I want to see it soon
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['anaphora', 'recommend']
+
+Turn: 9
+You: I has really good reviews
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 3
+Strategy: ['together']
+
+Turn: 10
+You: yes. that sounds great
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+

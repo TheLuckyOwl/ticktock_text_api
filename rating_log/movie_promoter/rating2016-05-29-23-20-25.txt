@@ -1,0 +1,73 @@
+TurkID: A2GZ51FLMJBQ79
+UserID: 1613532672
+Gender:female
+Age:below20
+HaveSeen: -1
+GoTogether: -1
+
+Turn: 1
+You: Hello, TickTock. How are you today?
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 2
+You: Okay, let's talk about movies. What's your favorite movie?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 2
+Strategy: ['anaphora', 'type']
+
+Turn: 3
+You: I prefer super hero movies, personally.
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 4
+You: Captain America is cool!
+TickTock: I love Captain America's blue eyes.
+Appropriateness: 3
+Strategy: ['superhero']
+
+Turn: 5
+You: They are pretty dreamy, aren't they?
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 2
+Strategy: ['anaphora', 'suggest']
+
+Turn: 6
+You: I have seen it, yeah. What was your favorite scene?
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['anaphora', 'details']
+
+Turn: 7
+You: That was definitely an emotional scene!
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['seen']
+
+Turn: 8
+You: I haven't yet, is it good?
+TickTock: My friend just saw Captain America: Civil War. He told me it is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['anaphora', 'recommend']
+
+Turn: 9
+You: Are you going to see it soon?
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 1
+Strategy: ['anaphora', 'together']
+
+Turn: 10
+You: I don't know you at all! Where do you even live?
+TickTock: Well, you know, I'm not sure. That's interesting.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 11
+You: You're not sure where you live?
+TickTock: That's interesting. Can you share some interesting stuff with me?
+Appropriateness: 1
+Strategy: ['end']
+

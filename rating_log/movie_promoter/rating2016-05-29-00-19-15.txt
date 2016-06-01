@@ -1,0 +1,79 @@
+TurkID: A2R4R1UFDFCQSP
+UserID: 111239118
+Gender:female
+Age:20-30
+HaveSeen: 1
+GoTogether: 1
+
+Turn: 1
+You: Hello! How are you doing?
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: Okay, what is your favorite movie?
+TickTock: Well, the first movie I ever saw more than once was `` High Noon.''
+Appropriateness: 2
+Strategy: ['anaphora', 'continue']
+
+Turn: 3
+You: Oh yeah? What is that movie about?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 2
+Strategy: ['type']
+
+Turn: 4
+You: I don't especially like super hero movies, no.
+TickTock: Who is your favorite super hero?
+Appropriateness: 3
+Strategy: ['who']
+
+Turn: 5
+You: My favorite superhero is Raven.
+TickTock: what is 'Raven'?
+Appropriateness: 2
+Strategy: ['oov']
+
+Turn: 6
+You: Raven is a DC superhero from Teen Titans.
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 2
+Strategy: ['together']
+
+Turn: 7
+You: No thanks.
+TickTock: I do n't know. Let me know something you're interested in.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 8
+You: Who is your favorite superhero?
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 2
+Strategy: ['anaphora', 'details']
+
+Turn: 9
+You: Is Iron Man your favorite super hero?
+TickTock: 
+Appropriateness: 1
+Strategy: 
+
+Turn: 10
+You: Who is your favorite superhero?
+TickTock: You already said that!
+Appropriateness: 3
+Strategy: ['anaphora', 'not_repeat']
+
+Turn: 11
+You: Who is TickTock's favorite super hero?
+TickTock: Are you talking about TickTock, the Novel by Dean Koontz
+Appropriateness: 1
+Strategy: ['name_entity']
+
+Turn: 12
+You: Which superhero do you like the best?
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+

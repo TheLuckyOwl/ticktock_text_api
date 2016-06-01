@@ -1,0 +1,68 @@
+TurkID:  A1GKEEI844CEKI
+UserID: 1506756978
+Turn: 1
+You: Hey What is a good movie to see 
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: Tell me the best one to see now. 
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 3
+Strategy: ['together']
+
+Turn: 3
+You: Yes
+TickTock: Will you be serious, and say something in a complete sentence?
+Appropriateness: 1
+Strategy: ['short_answer']
+
+Turn: 4
+You: Yes. I want to seee it. 
+TickTock: what is 'seee'?
+Appropriateness: 1
+Strategy: ['anaphora', 'oov']
+
+Turn: 5
+You: It is see
+TickTock: It is.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 6
+You: What are you talking about 
+TickTock: Who is your favorite super hero?
+Appropriateness: 3
+Strategy: ['who']
+
+Turn: 7
+You: Mine are the teen titans 
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 1
+Strategy: ['seen']
+
+Turn: 8
+You: NO i have not seen it. 
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 1
+Strategy: ['anaphora', 'details']
+
+Turn: 9
+You: I really do not care that much. 
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 1
+Strategy: ['type']
+
+Turn: 10
+You: I would rather see disney movies becuase of my kids 
+TickTock: what is 'becuase'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 11
+You: It is because 
+TickTock: It is.
+Appropriateness: 1
+Strategy: ['continue']
+
