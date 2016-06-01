@@ -61,7 +61,7 @@ for tt_utt in user_input_all:
     conv["Turns"][0]["Appropriateness"] =0# clean the cash for alice
     conv["Turns"][0]["Strategy"] = ['new']
     commands.getstatusoutput("rm c.txt")
-    if conv_index > start_index+10:
+    if conv_index > start_index+300:
         epsilon = 0.1
         if (conv_index-start_index)%20 == 0:
         # here we do testing.

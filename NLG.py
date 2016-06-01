@@ -60,7 +60,23 @@ def FillTemplate(theme, TemplateLib, TopicLib, template, init_id, joke_id,more_i
                 more_index = more_id%len(TemplateLib['template_more'])
                 sent_list.append(TemplateLib['template_more'][more_index])
                 more_id = more_id + 1
-	    else:
-		sent_list.append(random.choice(TemplateLib[unit]))
-    #pr
+            elif unit == 'type':
+                sent_list.append('Do you like super hero movies or Disney movies?')
+            elif unit == 'favorite':
+                sent_list.append('My favorite super hero is Captain America.')
+            elif unit == 'suggest':
+                sent_list.append('I really like the first Avenger movie, have you seen it before?')
+            elif unit == 'seen':
+                sent_list.append('Have you seen Captain America: Civil War?')
+            elif unit == 'together':
+                sent_list.append('Do you want to see Captain America: Civil War together?')
+            elif unit == 'details':
+                sent_list.append('I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.')
+            elif unit == 'recommend':
+                sent_list.append('My friend just saw Captain America: Civil War. He told me it is a really nice one, much better than the previous Captain America movie.')
+            elif unit == 'who':
+                sent_list.append('Who is your favorite super hero?')
+            else:
+		        sent_list.append(random.choice(TemplateLib[unit]))
+
     return theme, ' '.join(sent_list), init_id, joke_id, more_id, engaged_input

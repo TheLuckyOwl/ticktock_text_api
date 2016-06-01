@@ -13,9 +13,16 @@ short_answer_state=1
 previous_history ={}
 word2vec_ranking_state =1
 tfidf_state =1
-policy_mode = 'rl'
+policy_mode = 'greed'
 user_list =[]
 theme = {}
+previous_strategy ={}
+have_seen_real = 0
+go_together_real = 0
+movie_recommend_mode = 1
+previous_movie_recommend = {}
+previous_have_seen = {}
+previous_go_together ={}
 while True:
         serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         #Log('serversocket')
@@ -30,8 +37,10 @@ while True:
         user_id, user_input_real = user_input.split('|')
 	print user_id
         print user_input_real
-        theme, strategy,response,previous_history, word2vec = galbackend_online.get_response(0,None,policy_mode, user_input_real, user_id,previous_history,theme,oov_state,name_entity_state,short_answer_state,anaphra_state,word2vec_ranking_state,tfidf_state)
-        connection.send(response + "|" + str(strategy))
+        previous_have_seen, previous_go_together, previous_movie_recommend, previous_strategy, theme, strategy,response,previous_history, word2vec = galbackend_online.get_response(previous_have_seen, previous_go_together,movie_recommend_mode,previous_movie_recommend,previous_strategy,None,policy_mode, user_input_real, user_id,previous_history,theme,oov_state,name_entity_state,short_answer_state,anaphra_state,word2vec_ranking_state,tfidf_state)
+        have_seen_real = sum(previous_have_seen[user_id])
+        go_together_real = sum(previous_go_together[user_id])
+        connection.send(response + "|" + str(strategy)+"|" + str(have_seen_real) + "|" +str(go_together_real))
         print 'finish sending response'
         serversocket.close()
 

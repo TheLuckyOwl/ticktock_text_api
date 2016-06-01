@@ -127,27 +127,57 @@ def InitResource(version):
     with open('table_state_strategy.pkl') as f:
         table_state_strategy = pickle.load(f)
 
-def get_response(fix_strategy,policy_mode,user_input,user_id,previous_history, theme, oov_mode =1,name_entity_mode=1, short_answer_mode=1,anaphora_mode=1, word2vec_ranking_mode=1,tfidf_mode=1):
+def get_response(previous_have_seen, previous_go_together,movie_recommend_mode, previous_movie_recommend, previous_strategy, fix_strategy,policy_mode,user_input,user_id,previous_history, theme, oov_mode =1,name_entity_mode=1, short_answer_mode=1,anaphora_mode=1, word2vec_ranking_mode=1,tfidf_mode=1):
         global database, resource, turn_id, time, wizard, socket,isAlltag, tfidfmodel, tfidfdict, turn_id, engagement_mode, engaged_input, isAlltag, wizard
 	global TemplateLib, TopicLib, TreeState, Template, connection, filepointer,engaged_input, init_id,joke_id,more_id,dictionary_value,model, table_state_strategy, q_table
         #print 'user_input: ' + user_input
-        #print 'user_id:' + user_id
+        print 'this is previous stratey'
+        print previous_strategy
+        print 'user_id:'+user_id
         strategy = []
         filepointer.write('turn_id: ' + str(turn_id) + '\n')
-	filepointer.write('user_id: ' + user_id + '\n')
+	#filepointer.write('user_id: ' + user_id + '\n')
 	turn_id = turn_id+1
 	filepointer.write('time:' + str(datetime.datetime.now())+ '\n')
 	filepointer.write('user_input:' + user_input + '\n')
+        # this is a block to fill the slot.
+        have_seen_turn =0
+        go_together_turn =0
         if fix_strategy is None:
             if user_id in previous_history.keys():
                 history = previous_history[user_id]
+                strategy_list = previous_strategy[user_id]
+                movie_recommend = previous_movie_recommend[user_id]
+                have_seen = previous_have_seen[user_id]
+                go_together = previous_go_together[user_id]
             else:
-                previous_history = {}
-                if user_id not in theme.keys():
-                    theme[user_id] = random.choice(TopicLib)
+                #previous_history = {}
+                #previous_strategy ={}
+                #previous_movie_recommend ={}
+                #if user_id not in theme.keys():
+                if movie_recommend_mode:
+                        theme[user_id] ='movies'
+                else:
+                        theme[user_id] = random.choice(TopicLib)
                 output = 'Hello, I really like ' + theme[user_id] + '. How about we talk about ' + theme[user_id]
                 previous_history[user_id]=[user_input,output]
-                return theme, 'new', output, previous_history, 0
+                previous_strategy[user_id] =['new']
+                previous_movie_recommend[user_id] = [movie_recommend_mode]
+                previous_have_seen[user_id] =[0]
+                previous_go_together[user_id] =[0]
+                print previous_strategy
+                return previous_have_seen, previous_go_together,previous_movie_recommend,previous_strategy, theme, 'new', output, previous_history,0
+            if movie_recommend:
+                if strategy_list[-1]=='seen':
+                    if 'no' in user_input.lower() or "n't" in user_input.lower():
+                        have_seen_turn = -1
+                    else:
+                        have_seen_turn = 1
+                if strategy_list[-1] == 'together':
+                    if 'no' in user_input.lower() or "n't" in user_input.lower():
+                        go_together_turn = -1
+                    else:
+                        go_together_turn = 1
             if tfidf_mode is 1:
                 relavance, answer, anaphora_trigger,word2vec = Control.FindCandidate(model,database, resource, user_input,isAlltag,history,anaphora_mode, word2vec_ranking_mode, tfidfmodel=tfidfmodel, tfidfdict=tfidfdict)
             else:
@@ -181,16 +211,20 @@ def get_response(fix_strategy,policy_mode,user_input,user_id,previous_history, t
 			engaged_input.append(user_input)
 		state = Control.SelectState_rel(relavance, int(engagement), TreeState,engaged_input)
 	    else:
-		state,output = Control.SelectState_rel_only(table_state_strategy, relavance, user_input, history, TreeState, dictionary_value,oov_mode,name_entity_mode,short_answer_mode,policy_mode, q_table,theme,TemplateLib, TopicLib, Template,init_id,joke_id,more_id)
+		state,output = Control.SelectState_rel_only(movie_recommend[-1], strategy_list, table_state_strategy, relavance, user_input, history, TreeState, dictionary_value,oov_mode,name_entity_mode,short_answer_mode,policy_mode, q_table,theme,TemplateLib, TopicLib, Template,init_id,joke_id,more_id)
         else:
             state = {'name': fix_strategy}
             output = ''
             answer = ''
             word2vec = 0
         #print strategy
-        #print state['name']
+        if output is not 'no_movie_recommend' and movie_recommend_mode==1 and movie_recommend[-1] ==1:
+            movie_recommend_turn = 1
+        else:
+            movie_recommend_turn = 0
+        print state['name']
         strategy.append(state['name'])
-        if output == None:
+        if output == None or output == 'no_movie_recommend':
             theme[user_id], output,init_id,joke_id,more_id, engagement_input = NLG.FillTemplate(theme[user_id], TemplateLib, TopicLib, Template[state['name']],init_id,joke_id,more_id,engaged_input, answer,output)
         #print theme
         if isinstance(output, unicode):
@@ -202,10 +236,18 @@ def get_response(fix_strategy,policy_mode,user_input,user_id,previous_history, t
         if user_id in previous_history.keys():
                 previous_history[user_id].append(user_input)
                 previous_history[user_id].append(output)
+                previous_strategy[user_id].append(state['name'])
+                previous_movie_recommend[user_id].append(movie_recommend_turn)
+                previous_have_seen[user_id].append(have_seen_turn)
+                previous_go_together[user_id].append(go_together_turn)
         else:
             #if fix_strategy is None:
                 print "we are in the else user_id"
                 previous_history[user_id] = [user_input,output]
+                previous_strategy[user_id] = [state['name']]
+                previous_movie_recommend[user_id] =[movie_recommend_turn]
+                previous_have_seen[user_id]=[have_seen_turn]
+                previous_go_together[user_id] =[go_together_turn]
         if output[-2:-1]==' ':
             output = output[0:-2] +output[-1]
         #print 'strategy' +  str(strategy)
@@ -213,9 +255,12 @@ def get_response(fix_strategy,policy_mode,user_input,user_id,previous_history, t
         #print "end response generation =================="
 	#print "==========================================="
         filepointer.flush()
-        #print "this is previous history"
+        print "this is previous strategy history"
         #print previous_history
-        return theme, strategy,output,previous_history,word2vec #,dictionary_value
+        print previous_strategy
+        print previous_movie_recommend
+        print previous_have_seen
+        return previous_have_seen, previous_go_together,previous_movie_recommend, previous_strategy, theme, strategy,output,previous_history,word2vec #,dictionary_value
 
 
 

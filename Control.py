@@ -8,6 +8,7 @@ import oov
 import name_entity
 import nltk
 import rl_test
+import superhero
 def Init():
 	Tree = ConstructTree()
 	Template = ConstructTemplate()
@@ -45,16 +46,23 @@ def FindCandidate(model,database, resource, input_utter, isAlltag, history,anaph
                         word2vec = 1
         return relavance, answer, anaphora_trigger, word2vec
 #@based on response weight
-def SelectState_rel_only(str_rule, relavance, user_input, pre_history, TreeState,dictionary_value,oov_mode,name_entity_mode,short_answer_mode,policy_mode, q_table, theme, TemplateLib,TopicLib,Template,init_id,joke_id,more_id):
+def SelectState_rel_only(movie_recommend, strategy_list, str_rule, relavance, user_input, pre_history, TreeState,dictionary_value,oov_mode,name_entity_mode,short_answer_mode,policy_mode, q_table, theme, TemplateLib,TopicLib,Template,init_id,joke_id,more_id):
     branch_idx = TreeState.keys()[0]
     branch = TreeState[branch_idx]['node']
-    if user_input in pre_history:
+    #recommend_strategy_list =  ['type','favorite','suggest','seen','together','details','recommend','who']
+    if movie_recommend:
+        branch['threshold_relavance'] = 0.5
+    if user_input in pre_history[-2:]:
         return {'name':'not_repeat'},'You already said that!'
     if relavance >= branch['threshold_relavance']:
         return TreeState[branch_idx][True][0],None # only use the continue, don't expand
 
     else:
-        if name_entity_mode is 1:
+        if movie_recommend:
+            output = superhero.name(user_input)
+            if output:
+                return {'name':'superhero'}, output
+        if name_entity_mode is 1 and strategy_list[-1] is not 'name_entity':
             name_entity_list = name_entity.name_entity_detection(user_input)
             if name_entity_list:
                    name_entity_disp = name_entity.NE_kb(name_entity_list)
@@ -64,7 +72,7 @@ def SelectState_rel_only(str_rule, relavance, user_input, pre_history, TreeState
                         #if output_oov != previous_history[user_id][-1]:
                         return {'name':'name_entity'},output_oov
         if short_answer_mode is 1:
-                if (user_input.find(' ')==-1):
+                if (user_input.find(' ')==-1) and not user_input[0].isupper:
                     print 'it is a single word'
                     word_list = nltk.word_tokenize(user_input)
                     for word in word_list:
@@ -80,14 +88,36 @@ def SelectState_rel_only(str_rule, relavance, user_input, pre_history, TreeState
 			    print 'oov is triggerd'
 			    output = output_oov
                             return {'name': 'oov'},output_oov
+        if movie_recommend:
+            recommend_strategy_list = ['type', 'favorite','suggest','details','seen','recommend','together']
+            #strategy_available = list(set(recommend_strategy_list)-set(strategy_list))
+            strategy_available = None
+            for item in recommend_strategy_list:
+                if item not in strategy_list:
+                    strategy_available = item
+                    break
+            print 'strategy_available'
+            print strategy_available
+            if strategy_list[-1]=='type':
+                if 'disney' in user_input.lower():
+                    return {'name': 'switch'}, 'no_movie_recommend'
+            if strategy_available:
+                action = strategy_available
+                #    if 'type' not in strategy_list:
+            #        action = 'type'
+            #    else:
+            #        action = random.choice(strategy_available)
+            #else:
+            #    action = random.choice(['more','init','end','joke'])
+                return {'name':action}, None
 
-        if policy_mode ==0 or  pre_history==None:
+        if policy_mode ==0 or pre_history==None:
 		    return random.choice(TreeState[branch_idx][False][0:-1]),None# don't choose the last leave, go back
         curr_1 = sentiment_vader.get_sentiment(user_input)
         curr_2 = sentiment_vader.get_sentiment(pre_history[-1])
         curr_3 = sentiment_vader.get_sentiment(pre_history[-2])
 
-        if policy_mode ==1 and pre_history==None:
+        if pre_history==None or policy_mode =='greed':
             strategy = str_rule[(curr_1,curr_2,curr_3)]
             return {'name':strategy},None
         if policy_mode == 'rl':
@@ -161,4 +191,12 @@ def ConstructTemplate():
         template['short_answer'] = ['short_answer']
         template['name_entity'] =['name_entity']
         template['not_repeat'] = ['not_repeat']
+        template['type'] =['type']
+        template['favorite'] =['favorite']
+        template['suggest'] =['suggest']
+        template['seen'] =['seen']
+        template['together'] =['together']
+        template['details'] =['details']
+        template['recommend'] =['recommend']
+        template['who'] =['who']
         return template

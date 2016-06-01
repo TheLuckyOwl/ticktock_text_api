@@ -20,13 +20,13 @@ def PushData(data, database):
     return database
 
 def main():
-    datalist = line.strip() for line in open('cnn_qa_human_response_name_high_app.list')]
+    datalist = [line.strip() for line in open('cnn_qa_human_response_name_high_app.list')]
     database = LoadData(datalist)
     database = list(set(database))
-
+    database.append('avenger')
     with open('dictionary_value.pkl','w') as f:
         pickle.dump(database,f)
-if __name__= "__main__":
+if __name__=="__main__":
     main()
 
 
