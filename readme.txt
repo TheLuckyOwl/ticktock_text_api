@@ -42,7 +42,10 @@ sudo apt-get install php5-common libapache2-mod-php5 php5-cli
 sudo apt-get install php5-mysql php5-curl
 sudo cp webpages/* /var/www/html/
 sudo python debug_online_v4_turk.py
+If you want to use the film promotion chatbot do:
+sudo python debug_online_movie_promotion.py
 
 Data Collected: The conversations collectd using TickTock 1.0 is in rating_log/v1, and uisng TickTock 2.0 is in rating_log/v2
-
-A live demo : http://www.cs.cmu.edu/~zhouyu/TickTock.html
+The clean data of hte TickTock film promotion chatbot is rating_log/film_promotion_chatbot
+A live demo for normal TickTock: http://www.cs.cmu.edu/~zhouyu/TickTock.html
+A live demo of the film promotion chatbot: http://ec2-54-200-216-139.us-west-2.compute.amazonaws.com/TickTock_turk.php
