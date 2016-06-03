@@ -1,0 +1,97 @@
+TurkID: 38014774
+UserID: 1127669046
+Gender:male
+Age:20-30
+HaveSeen: 1
+GoTogether: 1
+
+Turn: 1
+You: hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 2
+You: ok
+TickTock: Thank you.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 3
+You: talk to me about movies
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 4
+You: a like both
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 2
+Strategy: ['favorite']
+
+Turn: 5
+You: did you know that captain america is a tritor?
+TickTock: I love Captain America's blue eyes.
+Appropriateness: 2
+Strategy: ['superhero']
+
+Turn: 6
+You: i'm done
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['suggest']
+
+Turn: 7
+You: yes. did you?
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 2
+Strategy: ['details']
+
+Turn: 8
+You: you're gay
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 1
+Strategy: ['seen']
+
+Turn: 9
+You: yor ai is poor
+TickTock: what is 'yor'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 10
+You: hi
+TickTock: Let me know something you're interested in.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 11
+You: say something different
+TickTock: My friend just saw Captain America: Civil War. He told me it is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['recommend']
+
+Turn: 12
+You: i'm done
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 2
+Strategy: ['together']
+
+Turn: 13
+You: hello?
+TickTock: let us do something fun together
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 14
+You: what?
+TickTock: I do n't understand.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 15
+You: can you say something?
+TickTock: That's interesting. Great. Let's talk other stuff then.
+Appropriateness: 2
+Strategy: ['end']
+

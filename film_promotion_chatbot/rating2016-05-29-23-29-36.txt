@@ -1,0 +1,121 @@
+TurkID: A2GZ51FLMJBQ79
+UserID: 1613532672
+Gender:female
+Age:below20
+HaveSeen: -1
+GoTogether: -1
+
+Turn: 1
+You: Hello, TickTock! I bet you want to talk about movies.
+TickTock: ok. Can we talk about something else?
+Appropriateness: 2
+Strategy: ['end']
+
+Turn: 2
+You: We sure can talk about something else! What's your favorite kind of dog?
+TickTock: I don't know. Can you share some interesting stuff with me?
+Appropriateness: 3
+Strategy: ['anaphora', 'end']
+
+Turn: 3
+You: Well, there's a lot of cool dog breeds, and mutts are super cool too! I personally prefer greyhounds/
+TickTock: what is 'mutts'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 4
+You: Mutts are dogs that aren't one pure breed
+TickTock: That's interesting. Let me know something you're interested in.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 5
+You: Dogs. I'm interested in dogs.
+TickTock: Well, you know, I'm not sure. Can you share some interesting stuff with me?
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 6
+You: Okay, I'm also interested in psychology. Do you know anything about psychology?
+TickTock: ok. Can we talk about something else?
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 7
+You: Okay, what do you want to talk about?
+TickTock: Uhh, I can't answer this. But anyway, I'd like to chat with you.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 8
+You: Okay, about what?
+TickTock: What do yiou want to chat about?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 9
+You: Dogs and psychology. You're the one who shot down both of those ideas.
+TickTock: ok. Can we talk about something else?
+Appropriateness: 2
+Strategy: ['end']
+
+Turn: 10
+You: Christ. Okay, let's talk about movies!
+TickTock: I don't know. But anyway, I'd like to chat with you.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 11
+You: Let's talk about shoes!
+TickTock: I don't know. Can you share some interesting stuff with me?
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 12
+You: Shoes are super cool! They go on your feet! 
+TickTock: I don't know. That's interesting.
+Appropriateness: 1
+Strategy: ['anaphora', 'end']
+
+Turn: 13
+You: These boots were made for walking!
+TickTock: Uhh, I can't answer this. But anyway, I'd like to chat with you.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 14
+You: Maybe ask your programmer to program you better.
+TickTock: what is 'programmer'?
+Appropriateness: 3
+Strategy: ['anaphora', 'oov']
+
+Turn: 15
+You: The person who made you.
+TickTock: Well, you know, I'm not sure. That's interesting.
+Appropriateness: 2
+Strategy: ['end']
+
+Turn: 16
+You: Yeah, I don't know who he is either, but I'm currently working for him for free. It's pretty bullshit, but if I don't I can basically never make money on this website again. What do you think of that?
+TickTock: what is 'bullshit'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 17
+You: It's when someone pays you $0.35 to do a job and then, because they're fucking incompetant, they expect you to do it *again* for free. 
+TickTock: what is '0.35'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 18
+You: It's how much I'm getting paid to talk to you, AKA definitely not enough to talk to a shitty chatbot four times. But you know, a girl's gotta make money, and your programmer knows how to play the system to force people to work for him for free.
+TickTock: Are you talking about AKA, the Hip-hop artist
+Appropriateness: 2
+Strategy: ['name_entity']
+
+Turn: 19
+You: No boo, I'm not.
+TickTock: what is 'boo'?
+Appropriateness: 3
+Strategy: ['oov']
+

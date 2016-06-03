@@ -1,0 +1,67 @@
+TurkID: A3RO7ATWWX0FRH
+UserID: 1643842889
+Gender:female
+Age:below20
+HaveSeen: 1
+GoTogether: -1
+
+Turn: 1
+You: Hello!
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 2
+You: Why?
+TickTock: Just try and control yourself.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 3
+You: What? I just asked why we should talk about movies?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 2
+Strategy: ['type']
+
+Turn: 4
+You: That was random. But I like both.
+TickTock: Who is your favorite super hero?
+Appropriateness: 3
+Strategy: ['who']
+
+Turn: 5
+You: I don't have one.
+TickTock: What I meant to say was, what is it that you hate?
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 6
+You: I hate snails?
+TickTock: Why is that?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 7
+You: Because they're kind of gross.
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 1
+Strategy: ['favorite']
+
+Turn: 8
+You: Okay that had nothing to do with what we were talking about.
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 1
+Strategy: ['together']
+
+Turn: 9
+You: I want to see the movie, but I don't want to see it with you.
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 2
+Strategy: ['anaphora', 'suggest']
+
+Turn: 10
+You: Yes I did.
+TickTock: ok, when do you time
+Appropriateness: 1
+Strategy: ['continue']
+

@@ -1,0 +1,79 @@
+TurkID: 34016083
+UserID: 1799837986
+Gender:female
+Age:20-30
+HaveSeen: 1
+GoTogether: 0
+
+Turn: 1
+You: Hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: That sounds good.
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 3
+You: I like both, really.
+TickTock: You're not kidding. Can we talk about something else?
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 4
+You: That sounds good
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 5
+You: I can understand that, he's great.
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['anaphora', 'suggest']
+
+Turn: 6
+You: No, I actually haven't.
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['details']
+
+Turn: 7
+You: That makes sense, it's a very engaging story
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['anaphora', 'seen']
+
+Turn: 8
+You: Yes
+TickTock: okay what time
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 9
+You: I don't remember
+TickTock: What I meant to say was, what is it that you hate?
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 10
+You: I don't hate anything about it
+TickTock: So you're less intelligent than a computer?!
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 11
+You: I'm confused...
+TickTock: Tell me what it's like to be a boring.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 12
+You: I'm definitely not boring
+TickTock: Tell me what it's like to be a boring.
+Appropriateness: 1
+Strategy: ['continue']
+

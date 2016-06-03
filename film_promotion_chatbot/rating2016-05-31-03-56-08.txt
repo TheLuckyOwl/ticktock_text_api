@@ -1,0 +1,127 @@
+TurkID: 36517633
+UserID: 1873579866
+Gender:female
+Age:20-30
+HaveSeen: -1
+GoTogether: 1
+
+Turn: 1
+You: Chris
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: Ok, let's do that
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 3
+You: super heroes movies
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 4
+You: Mine is Iron man
+TickTock: I love Iron Man's blue eyes.
+Appropriateness: 3
+Strategy: ['superhero']
+
+Turn: 5
+You: I like his suit
+TickTock: I probably own more than 50 firearms. Can we talk about something else?
+Appropriateness: 1
+Strategy: ['anaphora', 'continue']
+
+Turn: 6
+You: Ok, let's do it
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 1
+Strategy: ['anaphora', 'suggest']
+
+Turn: 7
+You: I have never seen it
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 2
+Strategy: ['anaphora', 'details']
+
+Turn: 8
+You: I did, too. LOL
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 1
+Strategy: ['seen']
+
+Turn: 9
+You: No, i HAVE NOT
+TickTock: I do n't think so. What's your idea?
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 10
+You: Let's talk about the Bible
+TickTock: My friend just saw Captain America: Civil War. He told me it is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 1
+Strategy: ['recommend']
+
+Turn: 11
+You: I did not see it
+TickTock: I do not.
+Appropriateness: 1
+Strategy: ['anaphora', 'continue']
+
+Turn: 12
+You: What else do you see?
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 1
+Strategy: ['together']
+
+Turn: 13
+You: yes, i do
+TickTock: Well, you know, I'm not sure. Great. Let's talk other stuff then.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 14
+You: yes, i do
+TickTock: You already said that!
+Appropriateness: 3
+Strategy: ['not_repeat']
+
+Turn: 15
+You: What do you want to talk about?
+TickTock: Uhh, I can't answer this.  Let me tell you something. Have you seen the new movie about constipation yet? People are pushing for its release.
+Appropriateness: 1
+Strategy: ['joke']
+
+Turn: 16
+You: I saw it and I liked it
+TickTock: That's interesting. But anyway, I'd like to chat with you.
+Appropriateness: 3
+Strategy: ['anaphora', 'end']
+
+Turn: 17
+You: Continue catting, then
+TickTock: what is 'catting'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 18
+You: I don't know
+TickTock: I do not know either.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 19
+You: So, when did you hear that?
+TickTock: Let's talk more about that?
+Appropriateness: 1
+Strategy: ['more']
+
+Turn: 20
+You: Yes, Let's do it tolearn
+TickTock: Okay.
+Appropriateness: 3
+Strategy: ['continue']
+

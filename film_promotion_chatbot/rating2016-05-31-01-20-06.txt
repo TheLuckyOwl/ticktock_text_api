@@ -1,0 +1,67 @@
+TurkID: omgina
+UserID: 825678875
+Gender:female
+Age:20-30
+HaveSeen: -1
+GoTogether: 1
+
+Turn: 1
+You: hello how are you doing today?
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 1
+Strategy: ['together']
+
+Turn: 2
+You: yes! i would love to see it with you.
+TickTock: Uhh, I can't answer this. But anyway, I'd like to chat with you.
+Appropriateness: 1
+Strategy: ['anaphora', 'end']
+
+Turn: 3
+You: what shall we talk about
+TickTock: Let's talk more about that?
+Appropriateness: 1
+Strategy: ['more']
+
+Turn: 4
+You: about what?
+TickTock: Well, you know, I'm not sure. Can you share some interesting stuff with me?
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 5
+You: i work for disneyland
+TickTock: what is 'disneyland'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 6
+You: it's a large theme park in california
+TickTock: Well, you know, I'm not sure. That's interesting.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 7
+You: i've worked there for two years
+TickTock: Uhh, I can't answer this. Let me know something you're interested in.
+Appropriateness: 1
+Strategy: ['end']
+
+Turn: 8
+You: i'm interested in all kinds of things honestly
+TickTock: Uhh, I can't answer this. Can we talk about something else?
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 9
+You: what do you want to talk abut?
+TickTock: what is 'abut'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 10
+You: about* sorry it was a typo
+TickTock: what is 'about*'?
+Appropriateness: 3
+Strategy: ['oov']
+

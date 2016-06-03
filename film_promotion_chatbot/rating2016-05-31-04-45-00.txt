@@ -1,0 +1,109 @@
+TurkID: 28081782
+UserID: 8973686
+Gender:male
+Age:20-30
+HaveSeen: 1
+GoTogether: -1
+
+Turn: 1
+You: Hi there how are you
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: ok sure what about them
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['anaphora', 'type']
+
+Turn: 3
+You: super hero movies
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 4
+You: yeah that was the best one to me too
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['suggest']
+
+Turn: 5
+You: yes i have
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['details']
+
+Turn: 6
+You: i like horror movies better
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['seen']
+
+Turn: 7
+You: yes
+TickTock: okay what time
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 8
+You: at 7pm
+TickTock: what is '7pm'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 9
+You: 7 o clock
+TickTock: My friend just saw Captain America: Civil War. He told me it is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['recommend']
+
+Turn: 10
+You: yes i agree it was
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 3
+Strategy: ['anaphora', 'together']
+
+Turn: 11
+You: no i dont
+TickTock: Could you tell me more about that?
+Appropriateness: 3
+Strategy: ['more']
+
+Turn: 12
+You: i like seeing movies alone better
+TickTock: Well, you know, I'm not sure. Great. Let's talk other stuff then.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 13
+You: have you seen any horror movies
+TickTock: Let's talk more about that?
+Appropriateness: 3
+Strategy: ['more']
+
+Turn: 14
+You: sure we can
+TickTock: I don't know. Let me know something you're interested in.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 15
+You: did you see Green Room
+TickTock: Are you talking about Green Room, the 2015 film
+Appropriateness: 3
+Strategy: ['name_entity']
+
+Turn: 16
+You: yes 5 am
+TickTock: I don't know. Can you share some interesting stuff with me?
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 17
+You: yes i am
+TickTock: Uhh, I can't answer this.  Let me tell you something, We never really grow up, we only learn how to act in public.
+Appropriateness: 1
+Strategy: ['joke']
+

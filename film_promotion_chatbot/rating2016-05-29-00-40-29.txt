@@ -1,0 +1,85 @@
+TurkID: A1VBJRQF0R60P9
+UserID: 1651822365
+Gender:male
+Age:30-40
+HaveSeen: 1
+GoTogether: -1
+
+Turn: 1
+You: Hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+
+Turn: 2
+You: sure, what kind of movies do you like?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 2
+Strategy: ['type']
+
+Turn: 3
+You: You're not supposed to answer a question with a question, but sure. Disney movies are more up my alley
+TickTock: what is 'alley'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 4
+You: it was a figure of speech, I like disney movies
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 1
+Strategy: ['details']
+
+Turn: 5
+You: Cried for what?
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 1
+Strategy: ['favorite']
+
+Turn: 6
+You: what makes him special?
+TickTock: Who is your favorite super hero?
+Appropriateness: 1
+Strategy: ['anaphora', 'who']
+
+Turn: 7
+You: Kermit
+TickTock: what is 'Kermit'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 8
+You: MY favorite super hero
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 1
+Strategy: ['together']
+
+Turn: 9
+You: You seem like a 14 year old with severe ADHD, so no
+TickTock: Are you talking about ADHD, the Musical Group
+Appropriateness: 2
+Strategy: ['name_entity']
+
+Turn: 10
+You: That's ACDC, no I'm talking about Attention Deficit Hyperactivity Disorder
+TickTock: what is 'Hyperactivity'?
+Appropriateness: 2
+Strategy: ['oov']
+
+Turn: 11
+You: Hyperactivity is when you just won't shut up
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 1
+Strategy: ['recommend']
+
+Turn: 12
+You: again with the Attention Deficit
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 1
+Strategy: ['seen']
+
+Turn: 13
+You: I am done!
+TickTock: I did n't mean in a bad way.
+Appropriateness: 2
+Strategy: ['continue']
+

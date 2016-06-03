@@ -1,0 +1,127 @@
+TurkID: 29571331
+UserID: 850882065
+Gender:male
+Age:20-30
+HaveSeen: 1
+GoTogether: 1
+
+Turn: 1
+You: what is your favorite superhero?
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+
+Turn: 2
+You: you like iron man?
+TickTock: I love Iron Man's blue eyes.
+Appropriateness: 2
+Strategy: ['superhero']
+
+Turn: 3
+You: what about batman?
+TickTock: I love his black eyes.
+Appropriateness: 2
+Strategy: ['superhero']
+
+Turn: 4
+You: who is your favorite superhero?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 1
+Strategy: ['anaphora', 'type']
+
+Turn: 5
+You: i love superhero movies
+TickTock: I like pop music.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 6
+You: what is your favorite song?
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 1
+Strategy: ['anaphora', 'favorite']
+
+Turn: 7
+You: did you see civil war the newest captain america movie
+TickTock: I love Captain America's blue eyes.
+Appropriateness: 1
+Strategy: ['superhero']
+
+Turn: 8
+You: are you real
+TickTock: 
+Appropriateness: 1
+Strategy: 
+
+Turn: 9
+You: are you real?
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 1
+Strategy: ['suggest']
+
+Turn: 10
+You: yes i have
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['details']
+
+Turn: 11
+You: same
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['seen']
+
+Turn: 12
+You: yes, have you?
+TickTock: My friend just saw Captain America: Civil War. He told me it is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['recommend']
+
+Turn: 13
+You: what is the 15th round?
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 1
+Strategy: ['together']
+
+Turn: 14
+You: sure
+TickTock: how about we do something we both like
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 15
+You: what to see a movie?
+TickTock: ok.  Let me tell you a joke. What does Peter Parker tell people when they ask him what he does for a living? "I'm a web designer".
+Appropriateness: 1
+Strategy: ['joke']
+
+Turn: 16
+You: haha
+TickTock: Wow. Any thoughts?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 17
+You: it's good
+TickTock: What do you like about it?
+Appropriateness: 3
+Strategy: ['anaphora', 'continue']
+
+Turn: 18
+You: it is very funny
+TickTock: Let's talk more about that?
+Appropriateness: 3
+Strategy: ['more']
+
+Turn: 19
+You: i love puns
+TickTock: what is 'puns'?
+Appropriateness: 2
+Strategy: ['oov']
+
+Turn: 20
+You: a pun
+TickTock: I don't know.  Let me tell you a joke, In a movie theater, a crowd watches a movie. During funny moments, only one person laughs. Confusingly he turns around and explains: "I haven't seen the trailer".
+Appropriateness: 2
+Strategy: ['joke']
+

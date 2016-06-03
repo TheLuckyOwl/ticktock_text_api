@@ -1,0 +1,126 @@
+TurkID: afd
+UserID: 1782039623
+Gender:male
+Age:20-30
+HaveSeen: -1
+GoTogether: 1
+Turn: 1
+You: Hello
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: How about we watch tv.
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 3
+You: I like disney movies.
+TickTock: I like pop music.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 4
+You: That's fun
+TickTock: Who is your favorite super hero?
+Appropriateness: 2
+Strategy: ['who']
+
+Turn: 5
+You: spider man
+TickTock: I love Spider-Man's hazel eyes.
+Appropriateness: 
+Strategy: ['superhero']
+
+Turn: 6
+You: He is beautiful.
+TickTock: Yes, he is.
+Appropriateness: 2
+Strategy: ['anaphora', 'continue']
+
+Turn: 7
+You: Who is your favorite super hero.
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 2
+Strategy: ['together']
+
+Turn: 8
+You: Sure. I want to see it.
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['anaphora', 'seen']
+
+Turn: 9
+You: No. I haven't
+TickTock: ok
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 10
+You: Really?
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 11
+You: Sure.
+TickTock: how about we do something we both like
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 12
+You: What's wrong.
+TickTock: First off, your plate is improperly displayed.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 13
+You: You are off.
+TickTock: Yes, this is my life, people.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 14
+You: You are werid.
+TickTock: Yes, this is my life, people.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 15
+You: Who is your favorite actor?
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['anaphora', 'suggest']
+
+Turn: 16
+You: No. I haven't
+TickTock: ok
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 17
+You: Do you want to see a movie
+TickTock: Who is your favorite super hero?
+Appropriateness: 3
+Strategy: ['who']
+
+Turn: 18
+You: Batman
+TickTock: I love his black eyes.
+Appropriateness: 3
+Strategy: ['superhero']
+
+Turn: 19
+You: He is charming.
+TickTock: Yes, he is.
+Appropriateness: 3
+Strategy: ['anaphora', 'continue']
+
+Turn: 20
+You: Who else do you like.
+TickTock: I just saw Captain America: Civil War. It is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['recommend']
+

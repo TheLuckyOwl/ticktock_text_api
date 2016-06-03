@@ -1,0 +1,115 @@
+TurkID: 13581319
+UserID: 250087852
+Gender:female
+Age:above50
+HaveSeen: -1
+GoTogether: -1
+
+Turn: 1
+You: Send Message
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: ok have you seen the Boss
+TickTock: Are you talking about Boss, the Fictional Character
+Appropriateness: 3
+Strategy: ['name_entity']
+
+Turn: 3
+You: yes
+TickTock: okay what time
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 4
+You: 7
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 5
+You: neither
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 6
+You: i hate both
+TickTock: Why is that?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 7
+You: i hate both
+TickTock: You already said that!
+Appropriateness: 2
+Strategy: ['not_repeat']
+
+Turn: 8
+You: i dont like superheros
+TickTock: what is 'superheros'?
+Appropriateness: 2
+Strategy: ['oov']
+
+Turn: 9
+You: super heros
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['suggest']
+
+Turn: 10
+You: no i told you i hate super heros
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['details']
+
+Turn: 11
+You: this is boring
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['seen']
+
+Turn: 12
+You: no it sucks
+TickTock: My friend just saw Captain America: Civil War. He told me it is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 3
+Strategy: ['anaphora', 'recommend']
+
+Turn: 13
+You: they all suck
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 3
+Strategy: ['anaphora', 'together']
+
+Turn: 14
+You: no i told you i hate super heros
+TickTock: I don't know. But anyway, I'd like to chat with you.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 15
+You: this is boring
+TickTock: Uhh, I can't answer this. Can we talk about something else?
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 16
+You: please
+TickTock: The particular assault weapon that massacred the children at the Sandy Hook School, was the same one used at the Oregon shopping mall mass shooting and in Aurora in the movie theater.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 17
+You: that is morbid
+TickTock: That's interesting.  Let me tell you something, I just watched a movie about a y = x graph. The plot was abit predictable, and a little flat.
+Appropriateness: 3
+Strategy: ['joke']
+
+Turn: 18
+You: i bet
+TickTock: Uhh, I can't answer this. Let me know something you're interested in.
+Appropriateness: 3
+Strategy: ['end']
+

@@ -1,0 +1,79 @@
+TurkID: ACIHCWKHNFC7U
+UserID: 543711542
+Gender:male
+Age:20-30
+HaveSeen: 0
+GoTogether: 0
+
+Turn: 1
+You: Hi
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 2
+You: yes
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 3
+You: which movies
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 2
+Strategy: ['type']
+
+Turn: 4
+You: no i do not
+TickTock: I do n't think so.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 5
+You: which movies do you like
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 6
+You: which movies do you like
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 7
+You: tell me the movies you like
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 8
+You: lets talk about commedies
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 1
+Strategy: new
+
+Turn: 9
+You: what about movies
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 10
+You: Disney movies are boring
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 11
+You: Hey, you are not talking about movies
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+
+Turn: 12
+You: You need to talk about movies
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 2
+Strategy: new
+

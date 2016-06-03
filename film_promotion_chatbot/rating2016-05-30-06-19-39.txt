@@ -1,0 +1,109 @@
+TurkID: 11521789
+UserID: 675851404
+Gender:male
+Age:above50
+HaveSeen: 1
+GoTogether: -1
+
+Turn: 1
+You: hello TickTock
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: ok
+TickTock: Thank you.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 3
+You: what is your favorite movie?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 2
+Strategy: ['anaphora', 'type']
+
+Turn: 4
+You: Super Hero Movies
+TickTock: No, no eyes, sorry
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 5
+You: Do you just listen to movies? Or no ears?
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 1
+Strategy: ['favorite']
+
+Turn: 6
+You: My favorite super hero is Iron Man.
+TickTock: I love Iron Man's blue eyes.
+Appropriateness: 3
+Strategy: ['superhero']
+
+Turn: 7
+You: I like the personality of his alter ego.
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['anaphora', 'suggest']
+
+Turn: 8
+You: I have.
+TickTock: Apparently.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 9
+You: I also like animated movies like Up!
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 1
+Strategy: ['details']
+
+Turn: 10
+You: Why did you cry?
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 1
+Strategy: ['seen']
+
+Turn: 11
+You: I have also seen this movie.  It was good.
+TickTock: So you do n't like me after all?!
+Appropriateness: 1
+Strategy: ['anaphora', 'continue']
+
+Turn: 12
+You: I never said that.
+TickTock: ok, when do you time
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 13
+You: I don't understand your comment or question.
+TickTock: What do you want to stop badly?
+Appropriateness: 1
+Strategy: ['anaphora', 'continue']
+
+Turn: 14
+You: I am getting sleepy.  It's late where I live.
+TickTock: My friend just saw Captain America: Civil War. He told me it is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 1
+Strategy: ['recommend']
+
+Turn: 15
+You: Yes, I agree.
+TickTock: That's good, because I'm right.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 16
+You: Ok.  Good night.  nice talking to you.
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 1
+Strategy: ['together']
+
+Turn: 17
+You: no
+TickTock: Could you tell me more about that?
+Appropriateness: 1
+Strategy: ['more']
+

@@ -1,0 +1,67 @@
+TurkID:  A22634OVAX2IVC
+UserID: 937584054
+Gender:male
+Age:40-50
+HaveSeen: -1
+GoTogether: 0
+
+Turn: 1
+You: Hello..how are you?
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: What movie is currently playing?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 3
+You: I like super hero movies
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 4
+You: What action movie do you suggest..that is out at the movies now?
+TickTock: what is 'suggest..that'?
+Appropriateness: 2
+Strategy: ['oov']
+
+Turn: 5
+You: what is your opinion of a action type movie?
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['suggest']
+
+Turn: 6
+You: I haven't seen the first Avenger movie.
+TickTock: what is 'Avenger'?
+Appropriateness: 2
+Strategy: ['oov']
+
+Turn: 7
+You: Avenger I believe is a action super hero movie.
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['details']
+
+Turn: 8
+You: Thank you for the time to chat with me about movies.
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['seen']
+
+Turn: 9
+You: Not Yet..that is a movie I plan to go and watch.
+TickTock: what is 'Yet..that'?
+Appropriateness: 2
+Strategy: ['oov']
+
+Turn: 10
+You: I have not seen Captain america : Civil war
+TickTock: I love Captain America's blue eyes.
+Appropriateness: 2
+Strategy: ['superhero']
+

@@ -1,0 +1,73 @@
+TurkID: 17677005
+UserID: 272702278
+Gender:female
+Age:20-30
+HaveSeen: 0
+GoTogether: 0
+
+Turn: 1
+You: make me some money
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: i like movies
+TickTock: I like pop music.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 3
+You: i dont
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 4
+You: disney
+TickTock: That's interesting. What do you think about sports
+Appropriateness: 3
+Strategy: ['switch']
+
+Turn: 5
+You: not my thing
+TickTock: Legalize it, tax the hell out of it.
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 6
+You: sports?
+TickTock: Why do you hate sports?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 7
+You: boring
+TickTock: Tell me what it's like to be a boring.
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 8
+You: i dont know ask yourself
+TickTock: Well, you know, I'm not sure. Great. Let's talk other stuff then.
+Appropriateness: 3
+Strategy: ['anaphora', 'end']
+
+Turn: 9
+You: just talk about something
+TickTock: Who will win the Super Bowl tomorrow?
+Appropriateness: 3
+Strategy: ['continue']
+
+Turn: 10
+You: tomorrow isn't the super bowl idiot
+TickTock: Do you want to share more about that with me?
+Appropriateness: 3
+Strategy: ['more']
+
+Turn: 11
+You: no
+TickTock: That's interesting. Can you share some interesting stuff with me?
+Appropriateness: 3
+Strategy: ['end']
+

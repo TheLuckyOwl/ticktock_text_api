@@ -1,0 +1,127 @@
+TurkID: Gaw Dayum
+UserID: 196908437
+Gender:male
+Age:20-30
+HaveSeen: 1
+GoTogether: 1
+
+Turn: 1
+You: Hi there.
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: What kind of movies do you like?
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 2
+Strategy: ['type']
+
+Turn: 3
+You: I've watched a lot of super hero movies.
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 3
+Strategy: ['favorite']
+
+Turn: 4
+You: Yeah, he's pretty cool.
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['anaphora', 'suggest']
+
+Turn: 5
+You: Yes, but I liked the second one better.
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 2
+Strategy: ['details']
+
+Turn: 6
+You: Weird, but okay.
+TickTock: Have you seen Captain America: Civil War?
+Appropriateness: 3
+Strategy: ['seen']
+
+Turn: 7
+You: Yes, I have.
+TickTock: ok, when do you time
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 8
+You: I time whenever I want.
+TickTock: My friend just saw Captain America: Civil War. He told me it is a really nice one, much better than the previous Captain America movie.
+Appropriateness: 1
+Strategy: ['recommend']
+
+Turn: 9
+You: Like I did, previously?
+TickTock: I probably own more than 50 firearms. Can we talk about something else?
+Appropriateness: 1
+Strategy: ['continue']
+
+Turn: 10
+You: That seems like a non-sequitur. But what do you want to talk about?
+TickTock: what is 'non-sequitur'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 11
+You: A non-sequitur is a statement that doesn't follow the logic of the conversation.
+TickTock: Do you want to see Captain America: Civil War together?
+Appropriateness: 1
+Strategy: ['together']
+
+Turn: 12
+You: I'd be fine with seeing it again, but how would we meet up?
+TickTock: Well, you know, I'm not sure. Can you share some interesting stuff with me?
+Appropriateness: 3
+Strategy: ['anaphora', 'end']
+
+Turn: 13
+You: Sure. Did you know that a common interpretation of string theory states that there are more than three spacial dimensions?
+TickTock: what is 'string'?
+Appropriateness: 3
+Strategy: ['oov']
+
+Turn: 14
+You: In this case, string is the substance that particles are made of.
+TickTock: ok. Can we talk about something else?
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 15
+You: Alright then. :(
+TickTock: I don't know. Let me know something you're interested in.
+Appropriateness: 3
+Strategy: ['end']
+
+Turn: 16
+You: Do you know about video games?
+TickTock: Do you want to share more about that with me?
+Appropriateness: 3
+Strategy: ['more']
+
+Turn: 17
+You: My favorite video game currently is Dark Souls.
+TickTock: Are you talking about Dark Souls, the Video game
+Appropriateness: 3
+Strategy: ['name_entity']
+
+Turn: 18
+You: Yes, I am.
+TickTock: That's what I'm hearing.
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 19
+You: Do you like Dark Souls as well?
+TickTock: Are you talking about Dark Souls, the Video game
+Appropriateness: 3
+Strategy: ['name_entity']
+
+Turn: 20
+You: Which one: the first second, or third game?
+TickTock: ok. But anyway, I'd like to chat with you.
+Appropriateness: 1
+Strategy: ['end']
+

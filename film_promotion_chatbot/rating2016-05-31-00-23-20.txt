@@ -1,0 +1,85 @@
+TurkID: 36792158
+UserID: 966766005
+Gender:male
+Age:20-30
+HaveSeen: 0
+GoTogether: 0
+
+Turn: 1
+You: hi
+TickTock: Hello, I really like movies. How about we talk about movies
+Appropriateness: 3
+Strategy: new
+
+Turn: 2
+You: hi i like movies too
+TickTock: Do you like super hero movies or Disney movies?
+Appropriateness: 3
+Strategy: ['type']
+
+Turn: 3
+You: yes
+TickTock: okay what time
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 4
+You: iron man
+TickTock: I love Iron Man's blue eyes.
+Appropriateness: 2
+Strategy: ['superhero']
+
+Turn: 5
+You: he dont have blue eyes
+TickTock: what is 'dont'?
+Appropriateness: 1
+Strategy: ['anaphora', 'oov']
+
+Turn: 6
+You: doesnt
+TickTock: what is 'doesnt'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 7
+You: a verb
+TickTock: what is 'verb'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 8
+You: a conjugation of word to explain something 
+TickTock: what is 'conjugation'?
+Appropriateness: 1
+Strategy: ['oov']
+
+Turn: 9
+You: the formation or existence of a link or connection between things
+TickTock: My favorite super hero is Captain America.
+Appropriateness: 2
+Strategy: ['favorite']
+
+Turn: 10
+You: is cool
+TickTock: I really like the first Avenger movie, have you seen it before?
+Appropriateness: 3
+Strategy: ['suggest']
+
+Turn: 11
+You: is cool
+TickTock: 
+Appropriateness: 1
+Strategy: 
+
+Turn: 12
+You: yes
+TickTock: okay what time
+Appropriateness: 2
+Strategy: ['continue']
+
+Turn: 13
+You: like 1 year ago
+TickTock: I really liked the first Avenger movie. When Iron Man came back alive, I cried for it.
+Appropriateness: 3
+Strategy: ['details']
+
