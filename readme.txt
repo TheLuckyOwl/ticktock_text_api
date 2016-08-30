@@ -34,6 +34,7 @@ sudo python -m nltk.downloader words
 sudo python -m nltk.downloader punkt
 sudo python -m nltk.downloader vaderSentiment
 sudo python -m nltk.downloader maxent_ne_chunker
+sudo python -m nltk.downloader words
 sudo python prepare_data.py
 cd word2vec
 sudo python word2vec.py
