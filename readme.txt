@@ -32,6 +32,7 @@ sudo python -m nltk.downloader maxent_treebank_pos_tagger
 sudo python -m nltk.downloader averaged_perceptron_tagger
 sudo python -m nltk.downloader words
 sudo python -m nltk.downloader punkt
+sudo python -m nltk.downloader vaderSentiment
 sudo python prepare_data.py
 cd word2vec
 sudo python word2vec.py
